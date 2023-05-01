@@ -1,0 +1,107 @@
+---
+title: "EJ tool: All indicators"
+author: "Amanda Gorton, MPCA"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+# Overview of data indicators + initial set up 
+
+This script will contain the cleaning and percentile ranking for all of the data indicators used in the EJ tool.  
+
+I also have these split by individual indicators in the shared EJ tool folder, found here:  
+"X:\Agency_Files\Data_Services\DAU\Analyses\EJ\EJ Score - Metrics for Scoring\EJ Prioritization Tool Version 1\Data Files - Organized"  
+
+## Load packages
+
+```{r load packages}
+library(readxl)
+library(tidyr)
+library(janitor)
+library(dplyr)
+library(tidyverse)
+```
+
+## Import data
+
+Where possible, I have indicated the source of each indicator. Please refer to the methodology and written report for the EJ tool for more information  
+
+```{r load data}
+# Import CDC data for entire US only once - afterwards use subset for MN below
+#PLACES <- read.csv("PLACESData_CDC.csv")
+
+```
+
+# Data clean-up and manipulation
+
+## CDC PLACES
+
+### Filtering, shortening, and cleaning up data
+
+```{r subset CDC PLACES data}
+# Subset dataset so that it's only for MN
+MN <- PLACES %>% 
+  filter(StateAbbr == 'MN')
+
+# Drop unnecessary columns
+MN_abbr <- MN %>% 
+  select(-c(LocationName, DataSource, Category, Data_Value_Footnote_Symbol, Data_Value_Footnote, CategoryID, MeasureId, DataValueTypeID, Short_Question_Text))
+
+# Export this reduced dataset for future use
+write.csv(MN_abbr, "CDCPlaces_MN.csv")
+
+# Look at the health measures to figure out which one are for asthma and heart disease
+# "Current asthma among adults aged >=18 years"   
+# "Coronary heart disease among adults aged >=18 years"  
+unique(MN$Measure)
+
+asthma <- MN_abbr %>% 
+  filter(Measure == 'Current asthma among adults aged >=18 years')
+
+heartdisease <- MN_abbr %>% 
+  filter(Measure == "Coronary heart disease among adults aged >=18 years")
+
+# Export these to send to MDH for comparison
+#write.csv(asthma, "CDCPlaces_asthma.csv")
+#write.csv(heartdisease, "CDCPlaces_heartdisease.csv")
+
+```
+
+### Calculate percentile ranking
+
+```{r}
+
+# For asthma and heart disease
+
+asthma_percentiles <- asthma %>%
+  rename(geoid = LocationID) %>%
+  mutate(percentile_rank = percent_rank(Data_Value))
+
+heartdisease_percentiles <- heartdisease %>%
+  rename(geoid = LocationID) %>%
+  mutate(percentile_rank = percent_rank(Data_Value))
+
+
+# Ranked percentiles for percentage of adults with asthma, by tract
+write.csv(asthma_percentiles, "asthma_percentiles.csv")
+
+# Ranked percentile for percentage of adults with heart disease, by tract
+write.csv(heartdisease_percentiles, "heartdisease_percentiles.csv")
+
+```
+
+
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

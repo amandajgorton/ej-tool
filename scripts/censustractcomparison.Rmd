@@ -1,0 +1,19 @@
+---
+title: "Census tract comparison"
+author: "Amanda Gorton, MPCA"
+date: "`r Sys.Date()`"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Hurray for connecting the EJ tool and GitHub and RMarkdown!
+
+```{r, eval = TRUE}
+
+```
+
