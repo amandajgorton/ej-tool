@@ -23,5 +23,32 @@ ci.summary <- ci %>%
   group_by(stressor) %>%
   summarize(n_tracts = n_distinct(tract))
 
+# 1502 for PM2.5 diesel, 1502 for proximity to traffic, 3 for the other two stressors
+# For now, will rank the two with the correct number of tracts, then come back to the third one we need
 
+
+### Data manipulation
+
+# Let's keep all rows where stressor is 'PM2.5 Diesel' or 'proxmity to traffic'
+# Keep only tract, value and stressor
+
+test <- ci %>%
+  filter(stressor == 'PM2.5 Diesel'|stressor == 'proximity to traffic') %>%
+  select("tract", "value", "stressor")
+
+### Percentile ranking 
+
+# Group by stressor, then rank based on value
+
+air <- test %>%
+  group_by(stressor) %>%
+  mutate(percentile_rank = percent_rank(value)*100)
+
+# Pivot wider to get a column for each stressor value and for each percentile ranking
+
+air_wider <- air %>%
+  pivot_wider(
+    names_from = stressor,
+    values_from = c(value, percentile_rank)
+  )
 
