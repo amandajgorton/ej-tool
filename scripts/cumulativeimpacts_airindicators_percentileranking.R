@@ -52,3 +52,9 @@ air_wider <- air %>%
     values_from = c(value, percentile_rank)
   )
 
+# Will need to think about consistently naming going forward across indicators, but ok to export for now
+
+### Export data
+
+# Ranked percentiles for each indicator, with one row per tract
+write.csv(air_wider, "air_percentiles.csv")
