@@ -1,0 +1,256 @@
+---
+title: "EJ Areas of Concern - ACS data"
+author: "Amanda Gorton, MPCA"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+# Set up
+
+## Load packages
+
+```{r}
+library(tidycensus)
+library(keyring)
+library(tidyverse)
+```
+
+
+## Browse variables
+
+Use the code below to browse the variable names in the subject tables
+
+```{r, eval = FALSE}
+
+# Use 'filter' to change what I am specifically looking for, either by including a particular number for the variable (name), or searching for words  in the label (e.g. Unemploy, Education, etc). Cache = TRUE will store the dataset for future use
+
+# Income - Federal Poverty Level: Ratio of income to poverty level in the past 12 months 
+acs.income <- load_variables(year = 2021, dataset = "acs5", cache = TRUE) %>% 
+  filter(str_detect(name, "C17002"))
+
+#C17002_001 - Total
+#C17002_002 - under 0.5
+#C17002_003 - 0.5 to 0.99
+#C17002_004 - 1 to 1.24
+#C17002_005 - 1.25 to 1.49
+#C17002_006 - 1.5 to 1.84
+#C17002_007 - 1.84 to 1.99
+
+# Limited English
+acs.english <- load_variables(year = 2021, dataset = "acs5/subject", cache = TRUE) %>% 
+  filter(str_detect(name, "S1602"))
+
+#S1602_C001_001 - All households 
+#S1602_C003_001 - Limited english all households
+#S1602_C003_002 - Limited English, Spanish
+#S1602_C003_003 - Limited English, Other Indo-European languages
+#S1602_C003_004 - Limited English, Asia-Pacific Islands
+#S1602_c003_005 - Limited English, other languages
+
+# English less than very well
+acs.english.lesswell <- load_variables(year = 2021, dataset = "acs5/subject", cache = TRUE) %>% 
+  filter(str_detect(name, "S1601"))
+
+#S1601_C05_001 - Speak English less than very well; percent of specified language speakers; population over 5 years
+
+# Race
+acs.race <- load_variables(year = 2021, dataset = "acs5") %>% 
+  filter(str_detect(name, "B03002"))
+
+#B03002_001 - Total population
+#B03002_004 - Black or African American alone
+#B03002_005 - American Indian and Alaska Native alone
+#B03002_007 - Native Hawaiian and Other Pacific Islander
+#B03002_008 - Some other race
+#B03002_009 - Two or more races
+#B03002_012 - Hispanic or Latino
+
+
+```
+
+
+# Import ACS variables + manipulate
+
+## Import estimates and margins of error 
+
+```{r, eval = FALSE, echo = FALSE, results = HIDE}
+
+acs_estimates <- get_acs(
+  state = "MN",
+  geography = "tract",
+  variables = c(LimitedEnglish_TotalPop = "S1602_C01_001",
+                LimitedEnglish = "S1602_C03_001",
+                Income_TotalPop = "C17002_001", 
+                Income_Under50 =  "C17002_002", 
+                Income_Under1 = "C17002_003", 
+                Income_Under125 = "C17002_004", 
+                Income_Under150 = "C17002_005", 
+                Income_Under185 = "C17002_006", 
+                Income_Under200 = "C17002_007", 
+                Race_TotalPop = "B03002_001",
+                Race_BlackAfricanAmerican = "B03002_004",
+                Race_AmericanIndianAlaskaNative = "B03002_005",
+                Race_Other = "B03002_008",
+                Race_TwoOrMore = "B03002_009",
+                Race_HispanicLatino = "B03002_012"
+                ), 
+  summary_var = c(TotalPop = "S0101_C01_001")
+  year = 2021
+)
+
+# Check to see if total pop is the same across variables
+acs.totalpop <- acs_estimates %>% 
+  filter(str_detect(variable, "TotalPop"))
+
+# Looks like they aren't always the same across tracts, so instead bring in each variable separately
+```
+
+
+### Race
+
+```{r, eval = FALSE, echo = FALSE, results = HIDE}
+
+# Get race estimates
+
+race <- get_acs(
+  state = "MN",
+  geography = "tract",
+  variables = c(Race_BlackAfricanAmerican = "B03002_004",
+                Race_AmericanIndianAlaskaNative = "B03002_005",
+                Race_Other = "B03002_008",
+                Race_TwoOrMore = "B03002_009",
+                Race_HispanicLatino = "B03002_012"
+                ), 
+  summary_var = c(TotalPop = "B03002_001"),
+  year = 2021
+)
+
+#Aggregate estimates and moe by tract
+
+race_summarized <- race%>%
+  group_by(GEOID) %>%
+  summarize(sum_est = sum(estimate), 
+            sum_moe = moe_sum(moe, estimate),
+            sum_est_totalpop = sum(summary_est),
+            sum_moe_totalpop = moe_sum(summary_moe, summary_est))
+
+```
+
+### Income
+
+```{r, eval = FALSE, echo = FALSE, results = HIDE}
+
+# Get income estimates
+
+income <- get_acs(
+  state = "MN",
+  geography = "tract",
+  variables = c(Income_Under50 =  "C17002_002", 
+                Income_Under1 = "C17002_003", 
+                Income_Under125 = "C17002_004", 
+                Income_Under150 = "C17002_005", 
+                Income_Under185 = "C17002_006", 
+                Income_Under200 = "C17002_007"
+                ), 
+  summary_var = c(TotalPop = "C17002_001"),
+  year = 2021
+)
+
+#Aggregate estimates and moe by tract
+
+income_summarized <- income %>%
+  group_by(GEOID) %>%
+  summarize(sum_est = sum(estimate), 
+            sum_moe = moe_sum(moe, estimate),
+            sum_est_totalpop = sum(summary_est),
+            sum_moe_totalpop = moe_sum(summary_moe, summary_est))
+
+```
+
+### Limited English
+
+```{r, eval = FALSE, echo = FALSE, results = HIDE}
+
+# Get limited english estimates
+
+limited_english <- get_acs(
+  state = "MN",
+  geography = "tract",
+  variables = c(LimitedEnglish = "S1602_C03_001"
+                ), 
+  summary_var = c(TotalPop = "S1602_C01_001"),
+  year = 2021
+)
+
+#Aggregate estimates and moe by tract - not needed for limited English, but to keep formatting consistent
+
+limitedenglish_summarized <- limited_english %>%
+  group_by(GEOID) %>%
+  summarize(sum_est = sum(estimate), 
+            sum_moe = moe_sum(moe, estimate),
+            sum_est_totalpop = sum(summary_est),
+            sum_moe_totalpop = moe_sum(summary_moe, summary_est))
+
+```
+
+### English less than very well
+
+```{r, eval = FALSE, echo = FALSE, results = HIDE}
+
+# Get limited english estimates
+
+english_lessthanverywell <- get_acs(
+  state = "MN",
+  geography = "tract",
+  variables = c(Lessthanverywell = "S1601_C05_001"
+                ), 
+  summary_var = c(TotalPop = "S1601_C01_001"),
+  year = 2021
+)
+
+#Aggregate estimates and moe by tract - not needed for limited English, but to keep formatting consistent
+
+english_lessthanverywell_summarized <- english_lessthanverywell %>%
+  group_by(GEOID) %>%
+  summarize(sum_est = sum(estimate), 
+            sum_moe = moe_sum(moe, estimate),
+            sum_est_totalpop = sum(summary_est),
+            sum_moe_totalpop = moe_sum(summary_moe, summary_est))
+
+```
+
+## Normalize and convert counts to percentages
+
+```{r}
+
+# Race
+
+race_percent <- race_summarized %>%
+  mutate(race_percent = 100*(sum_est/sum_est_totalpop),
+         race_percent_moe = 100*(sum_moe/sum_moe_totalpop)) 
+
+# Income
+
+income_percent <- income_summarized %>%
+  mutate(income_percent = 100*(sum_est/sum_est_totalpop),
+         income_percent_moe = 100*(sum_moe/sum_moe_totalpop)) 
+
+# Limited English
+
+english_percent <- limitedenglish_summarized %>%
+  mutate(english_percent = 100*(sum_est/sum_est_totalpop),
+         english_percent_moe = 100*(sum_moe/sum_moe_totalpop)) 
+
+# English less than very well
+
+lessthanverywell_percent <- limitedenglish_summarized %>%
+  mutate(lessthanverywell_percent = 100*(sum_est/sum_est_totalpop),
+         lessthanverywell_percent_moe = 100*(sum_moe/sum_moe_totalpop)) 
+
+
+
+```
