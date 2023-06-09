@@ -1,0 +1,299 @@
+---
+title: "EJ Scoring Tool - ACS Data"
+author: "Amanda Gorton, MPCA"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+# Set up
+
+## Load packages
+
+```{r}
+library(tidycensus)
+library(keyring)
+library(tidyverse)
+```
+
+## Load API key
+
+Might need to do this every time - need to check
+
+```{r, eval = FALSE}
+census_api_key(key_get("census api"))
+```
+
+## ACS variables
+
+Use the code below to browse the variable names in the subject tables
+
+```{r, eval = FALSE}
+
+# Use 'filter' to change what I am specifically looking for, either by including a particular number for the variable (name), or searching for words  in the label (e.g. Unemploy, Education, etc)
+
+# Income - Federal Poverty Level
+acs.income <- load_variables(year = 2020, dataset = "acs5/subject") %>% 
+  filter(str_detect(name, "S1701"))
+
+# Educational attainment
+acs.educ.percent <- load_variables(year = 2020, dataset = "acs5/subject") %>% 
+  filter(str_detect(name, "S1501_C02"))
+
+# Age + sex
+acs.subject <- load_variables(year = 2020, dataset = "acs5/subject") %>% 
+  filter(str_detect(name, "S0101_C01"))
+
+# Limited English
+acs.english <- load_variables(year = 2020, dataset = "acs5/subject") %>% 
+  filter(str_detect(name, "S1602"))
+
+# Race
+acs.race <- load_variables(year = 2020, dataset = "acs5") %>% 
+  filter(str_detect(name, "B03002"))
+
+#B03002_001 - Total population
+#B03002_004 - Black or African American alone
+#B03002_005 - American Indian and Alaska Native alone
+#B03002_007 - Native Hawaiian and Other Pacific Islander
+#B03002_008 - Some other race
+#B03002_009 - Two or more races
+#B03002_012 - Hispanic or Latino
+
+
+```
+
+
+### Type of tables 
+
+#### Subject tables (S)
+
+Pretabulated estimates and percentages. Begin with the letter S.  
+https://www.census.gov/acs/www/data/data-tables-and-tools/subject-tables/ 
+
+#### Detailed Tables (B or C)  
+
+Detailed Tables are the most comprehensive ACS tables  
+"B" = base tables  
+"C" = collapsed tables, which cover the same topics but with fewer categories  
+https://data.census.gov/cedsci/all?d=ACS%205-Year%20Estimates%20Detailed%20Tables  
+
+### Socioeconomic categories for EJ scoring tool  
+
+These variables come from pre-existing categorizations that are used for the EJ Scoring Tool.  
+Some of them are multiple variables summed together, while others are stand-alone variables. 
+
+**Age** 
+Number of people 5 and under AND 65+    
+
+Table: S0101 - Age and Sex, Field names = C01_002, C01_030
+
+**Race**
+Number of people that are non-white.    
+Add up all race categories that are non-white    
+
+Table: B03002 - Hispanic or Latino Origin by Race  
+https://censusreporter.org/tables/B03002/   
+
+**Educational attainment**  
+Percentage of the population _without_ a high school diploma  
+Use the variable of people with a high school diploma or higher to calculate this.   
+
+Table: S1501 - Educational Attainment  
+Field name = C02_14 (Percent) or C01_014 (Count); Population > 25 years, high school or higher  
+Total pop field name = C01_006
+
+**Limited english speaking**
+Percentage of the population with limited english-speaking households  
+
+Table: S1602 - Limited English Speaking Households  
+Field name: C04_001 (Percent) or C03_001 (Count); Limited English speaking households, All households  
+All households field name: C01_001
+
+**Income**
+Number of people with income at or below 200% of the federal poverty level  
+
+Table: S1701 - Poverty Status in the Past 12 Months
+Field name: C02_042 (Count) 
+Total pop field name = C01_001
+
+
+# Import ACS variables + manipulate
+
+
+```{r, eval = FALSE, echo = FALSE, results = HIDE}
+
+# Mix of raw counts and/or percentages.  
+#The code below brings in the variables that Quinn has used previously
+
+
+acs_ejscoring <- get_acs(
+  state = "MN",
+  geography = "tract",
+  variables = c(Age_TotalPop = "S0101_C01_001", 
+                Age_Under5 = "S0101_C01_002",
+                Age_Over65 = "S0101_C01_030",
+                Percent_Educ_Attain_Over25_HighSchool = "S1501_C02_014",
+                Percent_LimitedEnglish = "S1602_C04_001",
+                Income_TotalPop_FedPovLevel = "S1701_C01_001", 
+                Income_Under200_FedPovLevel =  "S1701_C02_042", 
+                Race_TotalPop = "B03002_001",
+                Race_BlackAfricanAmerican = "B03002_004",
+                Race_AmericanIndianAlaskaNative = "B03002_005",
+                Race_Other = "B03002_008",
+                Race_TwoOrMore = "B03002_009",
+                Race_HispanicLatino = "B03002_012"
+                ), 
+  geometry = TRUE, #Adding in the spatial component
+  year = 2020
+)
+
+
+#B03002_001 - Total population
+#B03002_004 - Black or African American alone
+#B03002_005 - American Indian and Alaska Native alone
+#B03002_007 - Native Hawaiian and Other Pacific Islander
+#B03002_008 - Some other race
+#B03002_009 - Two or more races
+#B03002_012 - Hispanic or Latino
+```
+
+```{r, eval = FALSE, echo = FALSE}
+
+#Taking a quick glance, it seems as though 'TotalPop' may be the same across multiple variables - this makes sense, as they are all at the same level (i.e. tract). Let's check this using filter + dplyr.  
+
+acs.totalpop <- acs_ejscoring %>% 
+  filter(str_detect(variable, "TotalPop"))
+```
+
+## Import all ACS variables as counts
+
+Import ACS variables, using estimates/counts for all and adding in total population denominator to normalize counts 
+
+```{r, results = HIDE}
+acs_counts <- get_acs(
+  state = "MN",
+  geography = "tract",
+  variables = c(Age_Under5 = "S0101_C01_002",
+                Age_Over65 = "S0101_C01_030",
+                EducAttain_Over25_HighSchool = "S1501_C01_014",
+                LimitedEnglish = "S1602_C03_001",
+                Income_Under200_FedPovLevel =  "S1701_C01_042", 
+                Race_BlackAfricanAmerican = "B03002_004",
+                Race_AmericanIndianAlaskaNative = "B03002_005",
+                Race_Other = "B03002_008",
+                Race_TwoOrMore = "B03002_009",
+                Race_HispanicLatino = "B03002_012"
+                ), 
+  summary_var = c(TotalPop = "S0101_C01_001"),
+  #geometry = TRUE, #Adding in the spatial component
+  year = 2020
+)
+
+
+```
+
+## Normalize and convert counts to percentages
+
+```{r}
+acs_percent <- acs_counts %>%
+  mutate(percent = 100*(estimate/summary_est)) %>%
+  select(GEOID, NAME, variable, estimate, moe, percent) # Select only certain columns to retain
+```
+
+
+## Calculate socioeconomic indcators from ACS variables 
+
+Age = Age_Under5 + Age_Over65  
+Race = Race_BlackAfricanAmerican, Race_AmericanIndianAlaskaNative, Race_Other, Race_TwoOrMore, Race_HispanicLatino
+Educational Attainment = (EducaAttain_Over25_HighSchool - 1)
+Limited english speaking = LimitedEnglish
+Income = Income_Under200_FedPovLevel
+
+
+```{r}
+
+# First, reassign all the estimates for each variable into the different indicator groups
+
+# https://walker-data.com/census-r/wrangling-census-data-with-tidyverse-tools.html
+# See section 3.3.2 Tabulating new groups
+
+ej_ind <- acs_percent %>% 
+    group_by(NAME) %>%
+    mutate(indicator = case_when(
+      variable == c("Race_BlackAfricanAmerican", "Race_AmericanIndianAlaskaNative", "Race_Other", "Race_TwoOrMore", "Race_HispanicLatino") ~ "race",
+      variable == "LimitedEnglish" ~ "limited_english",
+      variable == "Income_Under200_FedPovLevel" ~ "income",
+      variable == "EducAttain_Over25_HighSchool" ~ "education",
+      TRUE ~ "age"
+    ))
+
+```
+
+```{r}
+
+# Next, summarize percentages into the new indicator groupings 
+
+ej_sums <- ej_ind %>%
+  group_by(GEOID, NAME, indicator) %>%
+  summarize(percent = sum(percent))
+
+```
+
+```{r, eval = FALSE, echo = FALSE}
+# Have to ignore the geometry to do the summary 
+
+ej_ind_sum <- ej_indicators %>%
+  as.data.frame() %>% # Include this to remove sticky geometry
+  group_by(GEOID, indicator) %>%
+  summarize(percent = sum(percent))
+
+#st_drop_geometry()
+
+# Add back in geometry
+
+# Doesn't work
+ej_ind_sum_sf <-
+  st_join(ej_ind_sum, ej_ind %>%
+  select(NAME), by = GEOID)
+
+# Doesn't work
+ej_ind_sum_sf <-
+  merge(ej_ind_sum, ej_ind, by = "GEOID")
+
+
+```
+
+## Assign percentiles for each indicator
+
+Need to assign percentiles for each indicator, so that each tract has a percentile associated with each of the five indicators
+
+```{r}
+ej_percentiles <- ej_sums %>%
+  group_by(indicator) %>%
+  mutate(percent_rank = rank(percent)/length(percent))
+```
+
+## Pivot data wider
+
+In order to join these data with the other data types used in the EJ Score Tool, need to pivot data wider
+
+```{r}
+
+ej_percentiles_wide <- ej_percentiles %>%
+  select("GEOID", "percent_rank", "indicator") %>%
+  pivot_wider(names_from = "indicator", values_from = c("percent_rank"))
+
+```
+
+# Export data
+
+Ranked percentiles for each indicator, with one row per tract
+
+```{r}
+write.csv(ej_percentiles_wide, "ACS_20162020_ejindicators_percentiles.csv")
+```
+

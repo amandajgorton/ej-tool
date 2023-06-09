@@ -1,0 +1,1337 @@
+tract_id,pct_ebll_cat,primary_county,num_EBLLs_tract,tested,pct_ebll_county,per_eblls_label,pct_ebll_cat_label
+,,Minnesota,2476,325469,,,
+27123980000,0,Ramsey County,0,0,1.5%,n/a,n/a
+27163070801,0,Washington County,0,0,0.3%,n/a,n/a
+27163070802,0,Washington County,0,0,0.3%,n/a,n/a
+27001770100,2,Aitkin County,0,63,0.4%,0.0%,No significant difference
+27001770200,2,Aitkin County,0,62,0.4%,0.0%,No significant difference
+27001770300,2,Aitkin County,*1-4,115,0.4%,About 0.8%,No significant difference
+27001770400,2,Aitkin County,0,98,0.4%,0.0%,No significant difference
+27001790501,2,Aitkin County,0,40,0.4%,0.0%,No significant difference
+27001790502,2,Aitkin County,0,68,0.4%,0.0%,No significant difference
+27003050107,2,Anoka County,0,192,0.3%,0.0%,No significant difference
+27003050108,2,Anoka County,*1-4,371,0.3%,About 0.8%,No significant difference
+27003050109,2,Anoka County,*1-4,314,0.3%,About 0.8%,No significant difference
+27003050110,2,Anoka County,*1-4,117,0.3%,About 0.8%,No significant difference
+27003050111,2,Anoka County,*1-4,171,0.3%,About 0.8%,No significant difference
+27003050114,2,Anoka County,0,140,0.3%,0.0%,No significant difference
+27003050115,2,Anoka County,0,289,0.3%,0.0%,No significant difference
+27003050116,2,Anoka County,0,206,0.3%,0.0%,No significant difference
+27003050208,2,Anoka County,0,192,0.3%,0.0%,No significant difference
+27003050210,2,Anoka County,*1-4,130,0.3%,About 0.8%,No significant difference
+27003050215,2,Anoka County,0,125,0.3%,0.0%,No significant difference
+27003050216,2,Anoka County,*1-4,250,0.3%,About 0.8%,No significant difference
+27003050217,2,Anoka County,0,165,0.3%,0.0%,No significant difference
+27003050218,2,Anoka County,0,147,0.3%,0.0%,No significant difference
+27003050219,2,Anoka County,0,146,0.3%,0.0%,No significant difference
+27003050220,2,Anoka County,0,340,0.3%,0.0%,No significant difference
+27003050221,2,Anoka County,0,342,0.3%,0.0%,No significant difference
+27003050222,2,Anoka County,*1-4,290,0.3%,About 0.8%,No significant difference
+27003050223,2,Anoka County,0,134,0.3%,0.0%,No significant difference
+27003050224,2,Anoka County,0,238,0.3%,0.0%,No significant difference
+27003050225,2,Anoka County,0,278,0.3%,0.0%,No significant difference
+27003050226,2,Anoka County,0,166,0.3%,0.0%,No significant difference
+27003050227,2,Anoka County,0,261,0.3%,0.0%,No significant difference
+27003050228,1,Anoka County,0,431,0.3%,0.0%,Significantly lower (<0.7%)
+27003050229,2,Anoka County,0,211,0.3%,0.0%,No significant difference
+27003050230,2,Anoka County,0,164,0.3%,0.0%,No significant difference
+27003050232,2,Anoka County,*1-4,180,0.3%,About 0.8%,No significant difference
+27003050233,2,Anoka County,0,170,0.3%,0.0%,No significant difference
+27003050234,2,Anoka County,0,174,0.3%,0.0%,No significant difference
+27003050235,2,Anoka County,*1-4,141,0.3%,About 0.8%,No significant difference
+27003050236,2,Anoka County,0,201,0.3%,0.0%,No significant difference
+27003050237,2,Anoka County,*1-4,239,0.3%,About 0.8%,No significant difference
+27003050401,2,Anoka County,*1-4,180,0.3%,About 0.8%,No significant difference
+27003050402,2,Anoka County,*1-4,177,0.3%,About 0.8%,No significant difference
+27003050501,2,Anoka County,0,158,0.3%,0.0%,No significant difference
+27003050504,2,Anoka County,0,164,0.3%,0.0%,No significant difference
+27003050505,2,Anoka County,0,385,0.3%,0.0%,No significant difference
+27003050602,2,Anoka County,0,162,0.3%,0.0%,No significant difference
+27003050605,2,Anoka County,0,374,0.3%,0.0%,No significant difference
+27003050606,2,Anoka County,0,96,0.3%,0.0%,No significant difference
+27003050607,2,Anoka County,0,312,0.3%,0.0%,No significant difference
+27003050608,2,Anoka County,*1-4,324,0.3%,About 0.8%,No significant difference
+27003050609,2,Anoka County,*1-4,209,0.3%,About 0.8%,No significant difference
+27003050610,2,Anoka County,*1-4,437,0.3%,About 0.8%,No significant difference
+27003050702,2,Anoka County,0,172,0.3%,0.0%,No significant difference
+27003050704,2,Anoka County,*1-4,292,0.3%,About 0.8%,No significant difference
+27003050706,2,Anoka County,*1-4,241,0.3%,About 0.8%,No significant difference
+27003050707,2,Anoka County,0,275,0.3%,0.0%,No significant difference
+27003050709,2,Anoka County,0,122,0.3%,0.0%,No significant difference
+27003050710,2,Anoka County,*1-4,249,0.3%,About 0.8%,No significant difference
+27003050711,2,Anoka County,*1-4,317,0.3%,About 0.8%,No significant difference
+27003050712,2,Anoka County,0,217,0.3%,0.0%,No significant difference
+27003050805,2,Anoka County,*1-4,467,0.3%,About 0.8%,No significant difference
+27003050806,1,Anoka County,0,415,0.3%,0.0%,Significantly lower (<0.7%)
+27003050807,2,Anoka County,0,266,0.3%,0.0%,No significant difference
+27003050808,2,Anoka County,*1-4,137,0.3%,About 0.8%,No significant difference
+27003050809,2,Anoka County,*1-4,412,0.3%,About 0.8%,No significant difference
+27003050810,2,Anoka County,0,229,0.3%,0.0%,No significant difference
+27003050811,2,Anoka County,0,171,0.3%,0.0%,No significant difference
+27003050813,1,Anoka County,0,434,0.3%,0.0%,Significantly lower (<0.7%)
+27003050816,2,Anoka County,0,384,0.3%,0.0%,No significant difference
+27003050818,1,Anoka County,0,462,0.3%,0.0%,Significantly lower (<0.7%)
+27003050819,2,Anoka County,*1-4,287,0.3%,About 0.8%,No significant difference
+27003050820,2,Anoka County,0,225,0.3%,0.0%,No significant difference
+27003050821,2,Anoka County,*1-4,167,0.3%,About 0.8%,No significant difference
+27003050901,2,Anoka County,*1-4,117,0.3%,About 0.8%,No significant difference
+27003050902,2,Anoka County,*1-4,281,0.3%,About 0.8%,No significant difference
+27003051001,3,Anoka County,*1-4,113,0.3%,> 0.8%,Significantly higher (1-2 times)
+27003051002,2,Anoka County,*1-4,236,0.3%,About 0.8%,No significant difference
+27003051101,2,Anoka County,0,313,0.3%,0.0%,No significant difference
+27003051102,2,Anoka County,*1-4,329,0.3%,About 0.8%,No significant difference
+27003051103,2,Anoka County,0,290,0.3%,0.0%,No significant difference
+27003051201,2,Anoka County,5,332,0.3%,1.5%,No significant difference
+27003051202,2,Anoka County,0,271,0.3%,0.0%,No significant difference
+27003051203,3,Anoka County,5,262,0.3%,1.9%,Significantly higher (1-2 times)
+27003051206,2,Anoka County,*1-4,163,0.3%,About 0.8%,No significant difference
+27003051302,2,Anoka County,*1-4,261,0.3%,About 0.8%,No significant difference
+27003051304,2,Anoka County,*1-4,156,0.3%,About 0.8%,No significant difference
+27003051305,2,Anoka County,0,220,0.3%,0.0%,No significant difference
+27003051400,2,Anoka County,*1-4,353,0.3%,About 0.8%,No significant difference
+27003051501,2,Anoka County,*1-4,257,0.3%,About 0.8%,No significant difference
+27003051502,2,Anoka County,0,187,0.3%,0.0%,No significant difference
+27003051600,2,Anoka County,0,232,0.3%,0.0%,No significant difference
+27005450100,2,Becker County,*1-4,135,0.4%,About 0.8%,No significant difference
+27005450200,2,Becker County,*1-4,68,0.4%,About 0.8%,No significant difference
+27005450300,2,Becker County,*1-4,214,0.4%,About 0.8%,No significant difference
+27005450400,2,Becker County,0,117,0.4%,0.0%,No significant difference
+27005450500,2,Becker County,*1-4,264,0.4%,About 0.8%,No significant difference
+27005450600,2,Becker County,*1-4,129,0.4%,About 0.8%,No significant difference
+27005450700,2,Becker County,0,75,0.4%,0.0%,No significant difference
+27005450800,2,Becker County,0,69,0.4%,0.0%,No significant difference
+27005450900,2,Becker County,0,106,0.4%,0.0%,No significant difference
+27005940000,2,Becker County,0,176,0.4%,0.0%,No significant difference
+27007450100,2,Beltrami County,0,268,0.2%,0.0%,No significant difference
+27007450200,2,Beltrami County,0,229,0.2%,0.0%,No significant difference
+27007450300,2,Beltrami County,0,95,0.2%,0.0%,No significant difference
+27007450400,2,Beltrami County,0,83,0.2%,0.0%,No significant difference
+27007450500,2,Beltrami County,0,63,0.2%,0.0%,No significant difference
+27007450600,2,Beltrami County,0,125,0.2%,0.0%,No significant difference
+27007450701,2,Beltrami County,0,179,0.2%,0.0%,No significant difference
+27007450702,2,Beltrami County,0,228,0.2%,0.0%,No significant difference
+27007940001,2,Beltrami County,0,1,0.2%,0.0%,No significant difference
+27007940002,2,Beltrami County,0,65,0.2%,0.0%,No significant difference
+27009020100,2,Benton County,*1-4,361,0.3%,About 0.8%,No significant difference
+27009020202,2,Benton County,0,170,0.3%,0.0%,No significant difference
+27009020203,2,Benton County,0,270,0.3%,0.0%,No significant difference
+27009020205,2,Benton County,*1-4,178,0.3%,About 0.8%,No significant difference
+27009020206,2,Benton County,0,99,0.3%,0.0%,No significant difference
+27009020300,2,Benton County,0,215,0.3%,0.0%,No significant difference
+27009021101,2,Benton County,*1-4,552,0.3%,About 0.8%,No significant difference
+27009021102,2,Benton County,*1-4,295,0.3%,About 0.8%,No significant difference
+27009021200,2,Benton County,*1-4,548,0.3%,About 0.8%,No significant difference
+27011950100,2,Big Stone County,*1-4,43,1.8%,About 0.8%,No significant difference
+27011950200,2,Big Stone County,0,66,1.8%,0.0%,No significant difference
+27011950300,2,Big Stone County,*1-4,92,1.8%,About 0.8%,No significant difference
+27013170100,2,Blue Earth County,*1-4,230,0.9%,About 0.8%,No significant difference
+27013170200,2,Blue Earth County,*1-4,395,0.9%,About 0.8%,No significant difference
+27013170300,2,Blue Earth County,*1-4,159,0.9%,About 0.8%,No significant difference
+27013170400,2,Blue Earth County,0,129,0.9%,0.0%,No significant difference
+27013170500,2,Blue Earth County,0,204,0.9%,0.0%,No significant difference
+27013170600,3,Blue Earth County,*1-4,121,0.9%,> 0.8%,Significantly higher (1-2 times)
+27013170700,3,Blue Earth County,*1-4,100,0.9%,> 0.8%,Significantly higher (1-2 times)
+27013170800,2,Blue Earth County,*1-4,212,0.9%,About 0.8%,No significant difference
+27013170900,2,Blue Earth County,0,117,0.9%,0.0%,No significant difference
+27013171000,2,Blue Earth County,*1-4,138,0.9%,About 0.8%,No significant difference
+27013171101,2,Blue Earth County,*1-4,89,0.9%,About 0.8%,No significant difference
+27013171202,2,Blue Earth County,*1-4,254,0.9%,About 0.8%,No significant difference
+27013171300,2,Blue Earth County,*1-4,111,0.9%,About 0.8%,No significant difference
+27013171400,3,Blue Earth County,*1-4,141,0.9%,> 0.8%,Significantly higher (1-2 times)
+27013171500,3,Blue Earth County,6,125,0.9%,4.8%,Significantly higher (1-2 times)
+27013171600,2,Blue Earth County,0,155,0.9%,0.0%,No significant difference
+27015960101,2,Brown County,0,20,1.2%,0.0%,No significant difference
+27015960102,2,Brown County,0,24,1.2%,0.0%,No significant difference
+27015960200,2,Brown County,0,85,1.2%,0.0%,No significant difference
+27015960300,2,Brown County,0,65,1.2%,0.0%,No significant difference
+27015960400,2,Brown County,0,130,1.2%,0.0%,No significant difference
+27015960500,3,Brown County,5,234,1.2%,2.1%,Significantly higher (1-2 times)
+27015960600,2,Brown County,0,71,1.2%,0.0%,No significant difference
+27015960700,2,Brown County,*1-4,144,1.2%,About 0.8%,No significant difference
+27017070100,2,Carlton County,*1-4,330,0.4%,About 0.8%,No significant difference
+27017070200,2,Carlton County,0,199,0.4%,0.0%,No significant difference
+27017070300,2,Carlton County,*1-4,260,0.4%,About 0.8%,No significant difference
+27017070400,2,Carlton County,*1-4,365,0.4%,About 0.8%,No significant difference
+27017070500,2,Carlton County,*1-4,212,0.4%,About 0.8%,No significant difference
+27017070600,2,Carlton County,0,108,0.4%,0.0%,No significant difference
+27017940000,2,Carlton County,*1-4,185,0.4%,About 0.8%,No significant difference
+27019090100,2,Carver County,*1-4,307,0.4%,About 0.8%,No significant difference
+27019090200,2,Carver County,*1-4,253,0.4%,About 0.8%,No significant difference
+27019090301,2,Carver County,*1-4,210,0.4%,About 0.8%,No significant difference
+27019090302,2,Carver County,0,295,0.4%,0.0%,No significant difference
+27019090401,2,Carver County,0,290,0.4%,0.0%,No significant difference
+27019090402,2,Carver County,0,191,0.4%,0.0%,No significant difference
+27019090501,2,Carver County,0,84,0.4%,0.0%,No significant difference
+27019090502,2,Carver County,0,68,0.4%,0.0%,No significant difference
+27019090503,2,Carver County,0,67,0.4%,0.0%,No significant difference
+27019090601,2,Carver County,0,132,0.4%,0.0%,No significant difference
+27019090602,2,Carver County,0,85,0.4%,0.0%,No significant difference
+27019090701,2,Carver County,*1-4,237,0.4%,About 0.8%,No significant difference
+27019090702,2,Carver County,0,119,0.4%,0.0%,No significant difference
+27019090800,2,Carver County,0,375,0.4%,0.0%,No significant difference
+27019090900,2,Carver County,*1-4,198,0.4%,About 0.8%,No significant difference
+27019091000,2,Carver County,5,673,0.4%,0.7%,No significant difference
+27019091100,2,Carver County,*1-4,337,0.4%,About 0.8%,No significant difference
+27019091201,2,Carver County,*1-4,249,0.4%,About 0.8%,No significant difference
+27019091202,2,Carver County,*1-4,134,0.4%,About 0.8%,No significant difference
+27021940001,2,Cass County,0,94,0.4%,0.0%,No significant difference
+27021940002,2,Cass County,0,176,0.4%,0.0%,No significant difference
+27021960100,2,Cass County,0,61,0.4%,0.0%,No significant difference
+27021960200,2,Cass County,0,72,0.4%,0.0%,No significant difference
+27021960301,2,Cass County,0,8,0.4%,0.0%,No significant difference
+27021960302,2,Cass County,0,17,0.4%,0.0%,No significant difference
+27021960600,2,Cass County,0,80,0.4%,0.0%,No significant difference
+27021960700,2,Cass County,0,192,0.4%,0.0%,No significant difference
+27021960801,2,Cass County,0,108,0.4%,0.0%,No significant difference
+27021960802,2,Cass County,*1-4,161,0.4%,About 0.8%,No significant difference
+27023950300,2,Chippewa County,*1-4,73,1.0%,About 0.8%,No significant difference
+27023950400,2,Chippewa County,0,94,1.0%,0.0%,No significant difference
+27023950500,2,Chippewa County,*1-4,99,1.0%,About 0.8%,No significant difference
+27023950600,2,Chippewa County,*1-4,242,1.0%,About 0.8%,No significant difference
+27025110100,2,Chisago County,*1-4,135,0.5%,About 0.8%,No significant difference
+27025110200,2,Chisago County,*1-4,278,0.5%,About 0.8%,No significant difference
+27025110301,2,Chisago County,0,213,0.5%,0.0%,No significant difference
+27025110302,2,Chisago County,*1-4,374,0.5%,About 0.8%,No significant difference
+27025110401,2,Chisago County,*1-4,440,0.5%,About 0.8%,No significant difference
+27025110402,2,Chisago County,*1-4,220,0.5%,About 0.8%,No significant difference
+27025110501,2,Chisago County,*1-4,180,0.5%,About 0.8%,No significant difference
+27025110502,2,Chisago County,*1-4,245,0.5%,About 0.8%,No significant difference
+27025110600,2,Chisago County,*1-4,236,0.5%,About 0.8%,No significant difference
+27025110700,2,Chisago County,0,197,0.5%,0.0%,No significant difference
+27027020100,2,Clay County,*1-4,250,0.2%,About 0.8%,No significant difference
+27027020202,2,Clay County,0,83,0.2%,0.0%,No significant difference
+27027020300,2,Clay County,*1-4,137,0.2%,About 0.8%,No significant difference
+27027020400,2,Clay County,0,93,0.2%,0.0%,No significant difference
+27027020500,2,Clay County,*1-4,172,0.2%,About 0.8%,No significant difference
+27027020600,2,Clay County,*1-4,273,0.2%,About 0.8%,No significant difference
+27027030102,2,Clay County,*1-4,288,0.2%,About 0.8%,No significant difference
+27027030103,1,Clay County,0,600,0.2%,0.0%,Significantly lower (<0.7%)
+27027030104,1,Clay County,0,444,0.2%,0.0%,Significantly lower (<0.7%)
+27027030106,2,Clay County,*1-4,71,0.2%,About 0.8%,No significant difference
+27027030107,2,Clay County,0,54,0.2%,0.0%,No significant difference
+27027030201,2,Clay County,0,169,0.2%,0.0%,No significant difference
+27027030202,2,Clay County,*1-4,216,0.2%,About 0.8%,No significant difference
+27029000100,2,Clearwater County,0,51,0.0%,0.0%,No significant difference
+27029000200,2,Clearwater County,0,63,0.0%,0.0%,No significant difference
+27029000300,2,Clearwater County,0,58,0.0%,0.0%,No significant difference
+27031480100,2,Cook County,0,46,0.0%,0.0%,No significant difference
+27031480200,2,Cook County,0,31,0.0%,0.0%,No significant difference
+27033270100,3,Cottonwood County,*1-4,113,1.2%,> 0.8%,Significantly higher (1-2 times)
+27033270200,2,Cottonwood County,0,42,1.2%,0.0%,No significant difference
+27033270300,2,Cottonwood County,*1-4,118,1.2%,About 0.8%,No significant difference
+27033270400,2,Cottonwood County,*1-4,171,1.2%,About 0.8%,No significant difference
+27035950100,2,Crow Wing County,0,35,0.4%,0.0%,No significant difference
+27035950204,2,Crow Wing County,0,21,0.4%,0.0%,No significant difference
+27035950400,2,Crow Wing County,*1-4,176,0.4%,About 0.8%,No significant difference
+27035950501,2,Crow Wing County,0,75,0.4%,0.0%,No significant difference
+27035950502,2,Crow Wing County,0,79,0.4%,0.0%,No significant difference
+27035950700,2,Crow Wing County,0,186,0.4%,0.0%,No significant difference
+27035950800,2,Crow Wing County,*1-4,152,0.4%,About 0.8%,No significant difference
+27035950900,2,Crow Wing County,0,207,0.4%,0.0%,No significant difference
+27035951000,2,Crow Wing County,*1-4,236,0.4%,About 0.8%,No significant difference
+27035951100,2,Crow Wing County,*1-4,281,0.4%,About 0.8%,No significant difference
+27035951200,2,Crow Wing County,*1-4,126,0.4%,About 0.8%,No significant difference
+27035951301,2,Crow Wing County,0,270,0.4%,0.0%,No significant difference
+27035951302,2,Crow Wing County,*1-4,292,0.4%,About 0.8%,No significant difference
+27035951400,2,Crow Wing County,0,232,0.4%,0.0%,No significant difference
+27035951600,2,Crow Wing County,0,68,0.4%,0.0%,No significant difference
+27035951700,2,Crow Wing County,0,65,0.4%,0.0%,No significant difference
+27037060101,3,Dakota County,5,252,0.3%,2.0%,Significantly higher (1-2 times)
+27037060102,2,Dakota County,*1-4,207,0.3%,About 0.8%,No significant difference
+27037060103,2,Dakota County,0,174,0.3%,0.0%,No significant difference
+27037060104,2,Dakota County,*1-4,347,0.3%,About 0.8%,No significant difference
+27037060105,2,Dakota County,0,339,0.3%,0.0%,No significant difference
+27037060201,2,Dakota County,*1-4,178,0.3%,About 0.8%,No significant difference
+27037060202,2,Dakota County,*1-4,195,0.3%,About 0.8%,No significant difference
+27037060301,2,Dakota County,*1-4,321,0.3%,About 0.8%,No significant difference
+27037060302,2,Dakota County,0,251,0.3%,0.0%,No significant difference
+27037060401,2,Dakota County,0,167,0.3%,0.0%,No significant difference
+27037060402,2,Dakota County,*1-4,234,0.3%,About 0.8%,No significant difference
+27037060502,2,Dakota County,0,285,0.3%,0.0%,No significant difference
+27037060503,2,Dakota County,0,320,0.3%,0.0%,No significant difference
+27037060505,1,Dakota County,0,461,0.3%,0.0%,Significantly lower (<0.7%)
+27037060506,2,Dakota County,0,291,0.3%,0.0%,No significant difference
+27037060507,2,Dakota County,0,158,0.3%,0.0%,No significant difference
+27037060508,2,Dakota County,*1-4,232,0.3%,About 0.8%,No significant difference
+27037060509,2,Dakota County,*1-4,232,0.3%,About 0.8%,No significant difference
+27037060603,2,Dakota County,*1-4,188,0.3%,About 0.8%,No significant difference
+27037060604,2,Dakota County,0,112,0.3%,0.0%,No significant difference
+27037060605,2,Dakota County,0,105,0.3%,0.0%,No significant difference
+27037060606,2,Dakota County,0,109,0.3%,0.0%,No significant difference
+27037060709,2,Dakota County,*1-4,405,0.3%,About 0.8%,No significant difference
+27037060710,2,Dakota County,0,383,0.3%,0.0%,No significant difference
+27037060711,2,Dakota County,0,303,0.3%,0.0%,No significant difference
+27037060713,2,Dakota County,0,177,0.3%,0.0%,No significant difference
+27037060714,2,Dakota County,0,256,0.3%,0.0%,No significant difference
+27037060716,2,Dakota County,*1-4,208,0.3%,About 0.8%,No significant difference
+27037060717,2,Dakota County,0,152,0.3%,0.0%,No significant difference
+27037060721,2,Dakota County,0,143,0.3%,0.0%,No significant difference
+27037060725,2,Dakota County,*1-4,264,0.3%,About 0.8%,No significant difference
+27037060726,2,Dakota County,*1-4,208,0.3%,About 0.8%,No significant difference
+27037060727,2,Dakota County,*1-4,229,0.3%,About 0.8%,No significant difference
+27037060728,2,Dakota County,*1-4,260,0.3%,About 0.8%,No significant difference
+27037060729,2,Dakota County,*1-4,186,0.3%,About 0.8%,No significant difference
+27037060730,2,Dakota County,0,310,0.3%,0.0%,No significant difference
+27037060731,2,Dakota County,0,303,0.3%,0.0%,No significant difference
+27037060732,2,Dakota County,*1-4,272,0.3%,About 0.8%,No significant difference
+27037060733,2,Dakota County,*1-4,192,0.3%,About 0.8%,No significant difference
+27037060734,2,Dakota County,0,274,0.3%,0.0%,No significant difference
+27037060735,2,Dakota County,*1-4,355,0.3%,About 0.8%,No significant difference
+27037060737,2,Dakota County,*1-4,322,0.3%,About 0.8%,No significant difference
+27037060738,2,Dakota County,*1-4,260,0.3%,About 0.8%,No significant difference
+27037060739,2,Dakota County,0,258,0.3%,0.0%,No significant difference
+27037060741,2,Dakota County,*1-4,494,0.3%,About 0.8%,No significant difference
+27037060742,2,Dakota County,0,194,0.3%,0.0%,No significant difference
+27037060743,2,Dakota County,0,117,0.3%,0.0%,No significant difference
+27037060744,2,Dakota County,0,90,0.3%,0.0%,No significant difference
+27037060745,2,Dakota County,*1-4,321,0.3%,About 0.8%,No significant difference
+27037060746,2,Dakota County,0,199,0.3%,0.0%,No significant difference
+27037060747,2,Dakota County,*1-4,262,0.3%,About 0.8%,No significant difference
+27037060748,2,Dakota County,*1-4,234,0.3%,About 0.8%,No significant difference
+27037060749,2,Dakota County,*1-4,47,0.3%,About 0.8%,No significant difference
+27037060750,2,Dakota County,*1-4,272,0.3%,About 0.8%,No significant difference
+27037060805,2,Dakota County,*1-4,249,0.3%,About 0.8%,No significant difference
+27037060806,2,Dakota County,0,258,0.3%,0.0%,No significant difference
+27037060811,2,Dakota County,0,311,0.3%,0.0%,No significant difference
+27037060812,2,Dakota County,*1-4,362,0.3%,About 0.8%,No significant difference
+27037060813,2,Dakota County,0,196,0.3%,0.0%,No significant difference
+27037060814,2,Dakota County,0,343,0.3%,0.0%,No significant difference
+27037060815,2,Dakota County,0,261,0.3%,0.0%,No significant difference
+27037060816,2,Dakota County,*1-4,427,0.3%,About 0.8%,No significant difference
+27037060817,2,Dakota County,*1-4,653,0.3%,About 0.8%,No significant difference
+27037060818,2,Dakota County,*1-4,532,0.3%,About 0.8%,No significant difference
+27037060819,2,Dakota County,0,347,0.3%,0.0%,No significant difference
+27037060820,1,Dakota County,0,464,0.3%,0.0%,Significantly lower (<0.7%)
+27037060821,2,Dakota County,*1-4,722,0.3%,About 0.8%,No significant difference
+27037060822,2,Dakota County,0,83,0.3%,0.0%,No significant difference
+27037060823,2,Dakota County,0,176,0.3%,0.0%,No significant difference
+27037060824,2,Dakota County,0,144,0.3%,0.0%,No significant difference
+27037060825,2,Dakota County,0,307,0.3%,0.0%,No significant difference
+27037060826,2,Dakota County,*1-4,519,0.3%,About 0.8%,No significant difference
+27037060828,2,Dakota County,0,294,0.3%,0.0%,No significant difference
+27037060829,2,Dakota County,*1-4,207,0.3%,About 0.8%,No significant difference
+27037060902,2,Dakota County,*1-4,220,0.3%,About 0.8%,No significant difference
+27037060904,2,Dakota County,0,167,0.3%,0.0%,No significant difference
+27037060905,2,Dakota County,*1-4,464,0.3%,About 0.8%,No significant difference
+27037060906,2,Dakota County,0,201,0.3%,0.0%,No significant difference
+27037060907,2,Dakota County,*1-4,568,0.3%,About 0.8%,No significant difference
+27037061001,2,Dakota County,0,214,0.3%,0.0%,No significant difference
+27037061003,2,Dakota County,0,166,0.3%,0.0%,No significant difference
+27037061004,2,Dakota County,0,209,0.3%,0.0%,No significant difference
+27037061005,2,Dakota County,0,127,0.3%,0.0%,No significant difference
+27037061007,2,Dakota County,0,241,0.3%,0.0%,No significant difference
+27037061008,2,Dakota County,0,109,0.3%,0.0%,No significant difference
+27037061009,1,Dakota County,0,421,0.3%,0.0%,Significantly lower (<0.7%)
+27037061102,2,Dakota County,*1-4,252,0.3%,About 0.8%,No significant difference
+27037061105,2,Dakota County,0,147,0.3%,0.0%,No significant difference
+27037061106,2,Dakota County,0,150,0.3%,0.0%,No significant difference
+27037061107,2,Dakota County,*1-4,324,0.3%,About 0.8%,No significant difference
+27037061108,2,Dakota County,*1-4,374,0.3%,About 0.8%,No significant difference
+27037061401,2,Dakota County,0,136,0.3%,0.0%,No significant difference
+27037061402,2,Dakota County,*1-4,203,0.3%,About 0.8%,No significant difference
+27037061501,2,Dakota County,*1-4,89,0.3%,About 0.8%,No significant difference
+27037061502,2,Dakota County,*1-4,129,0.3%,About 0.8%,No significant difference
+27039950100,2,Dodge County,0,53,0.6%,0.0%,No significant difference
+27039950200,2,Dodge County,0,118,0.6%,0.0%,No significant difference
+27039950300,2,Dodge County,*1-4,90,0.6%,About 0.8%,No significant difference
+27039950400,2,Dodge County,0,101,0.6%,0.0%,No significant difference
+27039950500,2,Dodge County,*1-4,155,0.6%,About 0.8%,No significant difference
+27041450100,2,Douglas County,*1-4,166,0.4%,About 0.8%,No significant difference
+27041450200,2,Douglas County,*1-4,185,0.4%,About 0.8%,No significant difference
+27041450500,2,Douglas County,0,230,0.4%,0.0%,No significant difference
+27041450600,2,Douglas County,*1-4,371,0.4%,About 0.8%,No significant difference
+27041450701,2,Douglas County,5,282,0.4%,1.8%,No significant difference
+27041450702,2,Douglas County,0,137,0.4%,0.0%,No significant difference
+27041450800,2,Douglas County,0,150,0.4%,0.0%,No significant difference
+27041450900,2,Douglas County,0,149,0.4%,0.0%,No significant difference
+27041451000,2,Douglas County,*1-4,203,0.4%,About 0.8%,No significant difference
+27043460100,2,Faribault County,*1-4,86,2.8%,About 0.8%,No significant difference
+27043460200,2,Faribault County,*1-4,68,2.8%,About 0.8%,No significant difference
+27043460300,2,Faribault County,0,53,2.8%,0.0%,No significant difference
+27043460400,3,Faribault County,5,116,2.8%,4.3%,Significantly higher (1-2 times)
+27043460500,2,Faribault County,*1-4,71,2.8%,About 0.8%,No significant difference
+27043460600,2,Faribault County,*1-4,128,2.8%,About 0.8%,No significant difference
+27045960100,2,Fillmore County,*1-4,85,1.6%,About 0.8%,No significant difference
+27045960200,2,Fillmore County,*1-4,72,1.6%,About 0.8%,No significant difference
+27045960300,2,Fillmore County,*1-4,72,1.6%,About 0.8%,No significant difference
+27045960400,3,Fillmore County,*1-4,80,1.6%,> 0.8%,Significantly higher (1-2 times)
+27045960500,2,Fillmore County,*1-4,86,1.6%,About 0.8%,No significant difference
+27045960600,2,Fillmore County,*1-4,82,1.6%,About 0.8%,No significant difference
+27047180100,2,Freeborn County,*1-4,90,2.1%,About 0.8%,No significant difference
+27047180200,2,Freeborn County,*1-4,111,2.1%,About 0.8%,No significant difference
+27047180300,3,Freeborn County,*1-4,125,2.1%,> 0.8%,Significantly higher (1-2 times)
+27047180400,2,Freeborn County,*1-4,146,2.1%,About 0.8%,No significant difference
+27047180500,2,Freeborn County,*1-4,182,2.1%,About 0.8%,No significant difference
+27047180600,3,Freeborn County,7,257,2.1%,2.7%,Significantly higher (1-2 times)
+27047180700,2,Freeborn County,0,91,2.1%,0.0%,No significant difference
+27047180800,4,Freeborn County,9,119,2.1%,7.6%,Significantly higher (3+ times)
+27047180900,2,Freeborn County,*1-4,206,2.1%,About 0.8%,No significant difference
+27047181000,2,Freeborn County,0,67,2.1%,0.0%,No significant difference
+27049080101,3,Goodhue County,5,157,1.8%,3.2%,Significantly higher (1-2 times)
+27049080102,2,Goodhue County,*1-4,268,1.8%,About 0.8%,No significant difference
+27049080200,4,Goodhue County,13,293,1.8%,4.4%,Significantly higher (3+ times)
+27049080300,2,Goodhue County,0,103,1.8%,0.0%,No significant difference
+27049080400,2,Goodhue County,*1-4,152,1.8%,About 0.8%,No significant difference
+27049080500,2,Goodhue County,*1-4,145,1.8%,About 0.8%,No significant difference
+27049080600,2,Goodhue County,*1-4,211,1.8%,About 0.8%,No significant difference
+27049080700,2,Goodhue County,*1-4,124,1.8%,About 0.8%,No significant difference
+27049080800,2,Goodhue County,*1-4,126,1.8%,About 0.8%,No significant difference
+27049080900,2,Goodhue County,*1-4,197,1.8%,About 0.8%,No significant difference
+27051070100,3,Grant County,*1-4,156,1.4%,> 0.8%,Significantly higher (1-2 times)
+27051070200,2,Grant County,*1-4,134,1.4%,About 0.8%,No significant difference
+27053000101,2,Hennepin County,*1-4,256,0.9%,About 0.8%,No significant difference
+27053000102,2,Hennepin County,*1-4,406,0.9%,About 0.8%,No significant difference
+27053000300,3,Hennepin County,5,220,0.9%,2.3%,Significantly higher (1-2 times)
+27053000601,2,Hennepin County,*1-4,384,0.9%,About 0.8%,No significant difference
+27053000603,2,Hennepin County,*1-4,261,0.9%,About 0.8%,No significant difference
+27053001100,2,Hennepin County,*1-4,173,0.9%,About 0.8%,No significant difference
+27053001700,2,Hennepin County,0,204,0.9%,0.0%,No significant difference
+27053002200,3,Hennepin County,8,227,0.9%,3.5%,Significantly higher (1-2 times)
+27053002400,2,Hennepin County,*1-4,163,0.9%,About 0.8%,No significant difference
+27053002700,3,Hennepin County,7,291,0.9%,2.4%,Significantly higher (1-2 times)
+27053003200,2,Hennepin County,*1-4,161,0.9%,About 0.8%,No significant difference
+27053003300,2,Hennepin County,5,285,0.9%,1.8%,No significant difference
+27053003800,2,Hennepin County,0,90,0.9%,0.0%,No significant difference
+27053005901,2,Hennepin County,*1-4,157,0.9%,About 0.8%,No significant difference
+27053005902,3,Hennepin County,11,402,0.9%,2.7%,Significantly higher (1-2 times)
+27053006800,2,Hennepin County,*1-4,160,0.9%,About 0.8%,No significant difference
+27053007700,2,Hennepin County,*1-4,266,0.9%,About 0.8%,No significant difference
+27053007801,2,Hennepin County,*1-4,172,0.9%,About 0.8%,No significant difference
+27053008100,2,Hennepin County,*1-4,98,0.9%,About 0.8%,No significant difference
+27053008200,3,Hennepin County,9,234,0.9%,3.8%,Significantly higher (1-2 times)
+27053008300,4,Hennepin County,9,198,0.9%,4.5%,Significantly higher (3+ times)
+27053008400,4,Hennepin County,15,265,0.9%,5.7%,Significantly higher (3+ times)
+27053008500,4,Hennepin County,17,384,0.9%,4.4%,Significantly higher (3+ times)
+27053009500,3,Hennepin County,6,243,0.9%,2.5%,Significantly higher (1-2 times)
+27053009600,3,Hennepin County,9,271,0.9%,3.3%,Significantly higher (1-2 times)
+27053010600,2,Hennepin County,0,183,0.9%,0.0%,No significant difference
+27053010700,2,Hennepin County,0,124,0.9%,0.0%,No significant difference
+27053011000,2,Hennepin County,*1-4,293,0.9%,About 0.8%,No significant difference
+27053011703,2,Hennepin County,*1-4,337,0.9%,About 0.8%,No significant difference
+27053011704,2,Hennepin County,0,255,0.9%,0.0%,No significant difference
+27053011800,2,Hennepin County,*1-4,372,0.9%,About 0.8%,No significant difference
+27053011998,2,Hennepin County,0,285,0.9%,0.0%,No significant difference
+27053012001,2,Hennepin County,*1-4,551,0.9%,About 0.8%,No significant difference
+27053012003,1,Hennepin County,0,468,0.9%,0.0%,Significantly lower (<0.7%)
+27053012101,2,Hennepin County,0,281,0.9%,0.0%,No significant difference
+27053012102,2,Hennepin County,*1-4,196,0.9%,About 0.8%,No significant difference
+27053020101,2,Hennepin County,0,182,0.9%,0.0%,No significant difference
+27053020102,2,Hennepin County,0,103,0.9%,0.0%,No significant difference
+27053020200,2,Hennepin County,*1-4,765,0.9%,About 0.8%,No significant difference
+27053020301,2,Hennepin County,*1-4,246,0.9%,About 0.8%,No significant difference
+27053020302,2,Hennepin County,*1-4,230,0.9%,About 0.8%,No significant difference
+27053020303,2,Hennepin County,*1-4,362,0.9%,About 0.8%,No significant difference
+27053020304,2,Hennepin County,*1-4,390,0.9%,About 0.8%,No significant difference
+27053020400,2,Hennepin County,*1-4,356,0.9%,About 0.8%,No significant difference
+27053020500,2,Hennepin County,0,325,0.9%,0.0%,No significant difference
+27053020600,2,Hennepin County,*1-4,160,0.9%,About 0.8%,No significant difference
+27053020700,2,Hennepin County,*1-4,264,0.9%,About 0.8%,No significant difference
+27053020801,2,Hennepin County,0,107,0.9%,0.0%,No significant difference
+27053020804,2,Hennepin County,0,207,0.9%,0.0%,No significant difference
+27053020902,2,Hennepin County,*1-4,129,0.9%,About 0.8%,No significant difference
+27053020903,2,Hennepin County,*1-4,150,0.9%,About 0.8%,No significant difference
+27053021001,2,Hennepin County,0,319,0.9%,0.0%,No significant difference
+27053021002,2,Hennepin County,0,126,0.9%,0.0%,No significant difference
+27053021100,2,Hennepin County,*1-4,127,0.9%,About 0.8%,No significant difference
+27053021200,2,Hennepin County,*1-4,241,0.9%,About 0.8%,No significant difference
+27053021300,2,Hennepin County,*1-4,283,0.9%,About 0.8%,No significant difference
+27053021400,2,Hennepin County,0,208,0.9%,0.0%,No significant difference
+27053021501,2,Hennepin County,*1-4,217,0.9%,About 0.8%,No significant difference
+27053021502,2,Hennepin County,0,314,0.9%,0.0%,No significant difference
+27053021503,2,Hennepin County,*1-4,272,0.9%,About 0.8%,No significant difference
+27053021504,2,Hennepin County,0,184,0.9%,0.0%,No significant difference
+27053021505,2,Hennepin County,*1-4,235,0.9%,About 0.8%,No significant difference
+27053021601,2,Hennepin County,0,178,0.9%,0.0%,No significant difference
+27053021602,2,Hennepin County,0,216,0.9%,0.0%,No significant difference
+27053021700,2,Hennepin County,*1-4,270,0.9%,About 0.8%,No significant difference
+27053021800,2,Hennepin County,0,111,0.9%,0.0%,No significant difference
+27053021900,2,Hennepin County,*1-4,147,0.9%,About 0.8%,No significant difference
+27053022000,2,Hennepin County,0,31,0.9%,0.0%,No significant difference
+27053022101,2,Hennepin County,0,167,0.9%,0.0%,No significant difference
+27053022102,2,Hennepin County,0,142,0.9%,0.0%,No significant difference
+27053022200,2,Hennepin County,*1-4,213,0.9%,About 0.8%,No significant difference
+27053022301,2,Hennepin County,0,69,0.9%,0.0%,No significant difference
+27053022302,2,Hennepin County,0,176,0.9%,0.0%,No significant difference
+27053022400,2,Hennepin County,*1-4,249,0.9%,About 0.8%,No significant difference
+27053022700,2,Hennepin County,*1-4,235,0.9%,About 0.8%,No significant difference
+27053022801,2,Hennepin County,0,137,0.9%,0.0%,No significant difference
+27053022802,2,Hennepin County,*1-4,156,0.9%,About 0.8%,No significant difference
+27053022901,2,Hennepin County,0,189,0.9%,0.0%,No significant difference
+27053022902,2,Hennepin County,*1-4,119,0.9%,About 0.8%,No significant difference
+27053023000,2,Hennepin County,*1-4,207,0.9%,About 0.8%,No significant difference
+27053023100,2,Hennepin County,0,108,0.9%,0.0%,No significant difference
+27053023200,3,Hennepin County,11,465,0.9%,2.4%,Significantly higher (1-2 times)
+27053023300,2,Hennepin County,*1-4,331,0.9%,About 0.8%,No significant difference
+27053023400,2,Hennepin County,*1-4,389,0.9%,About 0.8%,No significant difference
+27053023501,2,Hennepin County,0,202,0.9%,0.0%,No significant difference
+27053023502,2,Hennepin County,*1-4,257,0.9%,About 0.8%,No significant difference
+27053023600,2,Hennepin County,0,136,0.9%,0.0%,No significant difference
+27053023700,2,Hennepin County,0,237,0.9%,0.0%,No significant difference
+27053023801,2,Hennepin County,0,346,0.9%,0.0%,No significant difference
+27053023802,2,Hennepin County,*1-4,208,0.9%,About 0.8%,No significant difference
+27053023901,2,Hennepin County,0,210,0.9%,0.0%,No significant difference
+27053023902,2,Hennepin County,0,74,0.9%,0.0%,No significant difference
+27053023903,2,Hennepin County,*1-4,123,0.9%,About 0.8%,No significant difference
+27053024003,3,Hennepin County,9,385,0.9%,2.3%,Significantly higher (1-2 times)
+27053024004,2,Hennepin County,*1-4,182,0.9%,About 0.8%,No significant difference
+27053024005,2,Hennepin County,*1-4,92,0.9%,About 0.8%,No significant difference
+27053024006,2,Hennepin County,0,93,0.9%,0.0%,No significant difference
+27053024100,2,Hennepin County,0,259,0.9%,0.0%,No significant difference
+27053024200,2,Hennepin County,0,207,0.9%,0.0%,No significant difference
+27053024300,3,Hennepin County,9,259,0.9%,3.5%,Significantly higher (1-2 times)
+27053024400,2,Hennepin County,0,215,0.9%,0.0%,No significant difference
+27053024500,2,Hennepin County,*1-4,169,0.9%,About 0.8%,No significant difference
+27053024600,2,Hennepin County,*1-4,296,0.9%,About 0.8%,No significant difference
+27053024700,2,Hennepin County,*1-4,248,0.9%,About 0.8%,No significant difference
+27053024801,2,Hennepin County,*1-4,231,0.9%,About 0.8%,No significant difference
+27053024802,3,Hennepin County,8,284,0.9%,2.8%,Significantly higher (1-2 times)
+27053024901,2,Hennepin County,0,73,0.9%,0.0%,No significant difference
+27053024902,2,Hennepin County,*1-4,167,0.9%,About 0.8%,No significant difference
+27053024903,3,Hennepin County,5,226,0.9%,2.2%,Significantly higher (1-2 times)
+27053025100,2,Hennepin County,*1-4,208,0.9%,About 0.8%,No significant difference
+27053025201,2,Hennepin County,*1-4,407,0.9%,About 0.8%,No significant difference
+27053025205,2,Hennepin County,*1-4,377,0.9%,About 0.8%,No significant difference
+27053025301,2,Hennepin County,0,108,0.9%,0.0%,No significant difference
+27053025302,2,Hennepin County,0,255,0.9%,0.0%,No significant difference
+27053025401,2,Hennepin County,*1-4,275,0.9%,About 0.8%,No significant difference
+27053025403,2,Hennepin County,0,265,0.9%,0.0%,No significant difference
+27053025601,2,Hennepin County,0,143,0.9%,0.0%,No significant difference
+27053025603,2,Hennepin County,0,221,0.9%,0.0%,No significant difference
+27053025605,2,Hennepin County,0,217,0.9%,0.0%,No significant difference
+27053025701,2,Hennepin County,0,405,0.9%,0.0%,No significant difference
+27053025702,2,Hennepin County,*1-4,285,0.9%,About 0.8%,No significant difference
+27053025801,2,Hennepin County,0,196,0.9%,0.0%,No significant difference
+27053025802,2,Hennepin County,0,161,0.9%,0.0%,No significant difference
+27053025803,2,Hennepin County,0,183,0.9%,0.0%,No significant difference
+27053025805,2,Hennepin County,0,127,0.9%,0.0%,No significant difference
+27053025903,2,Hennepin County,5,280,0.9%,1.8%,No significant difference
+27053025905,2,Hennepin County,0,148,0.9%,0.0%,No significant difference
+27053025906,2,Hennepin County,0,284,0.9%,0.0%,No significant difference
+27053025907,2,Hennepin County,0,172,0.9%,0.0%,No significant difference
+27053026005,2,Hennepin County,0,203,0.9%,0.0%,No significant difference
+27053026006,2,Hennepin County,*1-4,152,0.9%,About 0.8%,No significant difference
+27053026007,2,Hennepin County,*1-4,200,0.9%,About 0.8%,No significant difference
+27053026013,2,Hennepin County,0,153,0.9%,0.0%,No significant difference
+27053026014,2,Hennepin County,0,220,0.9%,0.0%,No significant difference
+27053026015,2,Hennepin County,0,237,0.9%,0.0%,No significant difference
+27053026016,2,Hennepin County,0,344,0.9%,0.0%,No significant difference
+27053026018,2,Hennepin County,*1-4,268,0.9%,About 0.8%,No significant difference
+27053026019,3,Hennepin County,13,507,0.9%,2.6%,Significantly higher (1-2 times)
+27053026020,2,Hennepin County,*1-4,240,0.9%,About 0.8%,No significant difference
+27053026021,2,Hennepin County,*1-4,150,0.9%,About 0.8%,No significant difference
+27053026022,2,Hennepin County,*1-4,238,0.9%,About 0.8%,No significant difference
+27053026101,2,Hennepin County,0,130,0.9%,0.0%,No significant difference
+27053026103,2,Hennepin County,*1-4,110,0.9%,About 0.8%,No significant difference
+27053026104,2,Hennepin County,0,154,0.9%,0.0%,No significant difference
+27053026201,2,Hennepin County,*1-4,100,0.9%,About 0.8%,No significant difference
+27053026202,2,Hennepin County,0,96,0.9%,0.0%,No significant difference
+27053026205,2,Hennepin County,*1-4,110,0.9%,About 0.8%,No significant difference
+27053026206,2,Hennepin County,0,101,0.9%,0.0%,No significant difference
+27053026207,2,Hennepin County,*1-4,151,0.9%,About 0.8%,No significant difference
+27053026208,2,Hennepin County,0,129,0.9%,0.0%,No significant difference
+27053026301,2,Hennepin County,0,88,0.9%,0.0%,No significant difference
+27053026302,2,Hennepin County,0,116,0.9%,0.0%,No significant difference
+27053026402,2,Hennepin County,*1-4,279,0.9%,About 0.8%,No significant difference
+27053026403,2,Hennepin County,*1-4,173,0.9%,About 0.8%,No significant difference
+27053026404,2,Hennepin County,0,146,0.9%,0.0%,No significant difference
+27053026505,2,Hennepin County,0,130,0.9%,0.0%,No significant difference
+27053026507,2,Hennepin County,*1-4,228,0.9%,About 0.8%,No significant difference
+27053026508,2,Hennepin County,0,145,0.9%,0.0%,No significant difference
+27053026509,2,Hennepin County,0,129,0.9%,0.0%,No significant difference
+27053026510,2,Hennepin County,*1-4,128,0.9%,About 0.8%,No significant difference
+27053026511,2,Hennepin County,0,186,0.9%,0.0%,No significant difference
+27053026512,2,Hennepin County,0,208,0.9%,0.0%,No significant difference
+27053026514,2,Hennepin County,0,261,0.9%,0.0%,No significant difference
+27053026605,2,Hennepin County,0,108,0.9%,0.0%,No significant difference
+27053026606,2,Hennepin County,0,195,0.9%,0.0%,No significant difference
+27053026609,2,Hennepin County,*1-4,95,0.9%,About 0.8%,No significant difference
+27053026610,2,Hennepin County,0,145,0.9%,0.0%,No significant difference
+27053026611,2,Hennepin County,0,179,0.9%,0.0%,No significant difference
+27053026612,2,Hennepin County,*1-4,410,0.9%,About 0.8%,No significant difference
+27053026613,2,Hennepin County,*1-4,422,0.9%,About 0.8%,No significant difference
+27053026702,2,Hennepin County,0,110,0.9%,0.0%,No significant difference
+27053026706,2,Hennepin County,0,167,0.9%,0.0%,No significant difference
+27053026707,2,Hennepin County,0,237,0.9%,0.0%,No significant difference
+27053026708,2,Hennepin County,*1-4,185,0.9%,About 0.8%,No significant difference
+27053026710,2,Hennepin County,*1-4,440,0.9%,About 0.8%,No significant difference
+27053026711,2,Hennepin County,0,131,0.9%,0.0%,No significant difference
+27053026712,2,Hennepin County,0,129,0.9%,0.0%,No significant difference
+27053026713,2,Hennepin County,*1-4,184,0.9%,About 0.8%,No significant difference
+27053026714,2,Hennepin County,*1-4,380,0.9%,About 0.8%,No significant difference
+27053026715,1,Hennepin County,0,453,0.9%,0.0%,Significantly lower (<0.7%)
+27053026716,2,Hennepin County,0,258,0.9%,0.0%,No significant difference
+27053026807,2,Hennepin County,*1-4,417,0.9%,About 0.8%,No significant difference
+27053026809,2,Hennepin County,5,656,0.9%,0.8%,No significant difference
+27053026810,2,Hennepin County,*1-4,641,0.9%,About 0.8%,No significant difference
+27053026811,1,Hennepin County,0,539,0.9%,0.0%,Significantly lower (<0.7%)
+27053026812,1,Hennepin County,0,482,0.9%,0.0%,Significantly lower (<0.7%)
+27053026814,2,Hennepin County,*1-4,578,0.9%,About 0.8%,No significant difference
+27053026815,2,Hennepin County,0,352,0.9%,0.0%,No significant difference
+27053026816,2,Hennepin County,*1-4,586,0.9%,About 0.8%,No significant difference
+27053026818,1,Hennepin County,0,439,0.9%,0.0%,Significantly lower (<0.7%)
+27053026819,1,Hennepin County,0,550,0.9%,0.0%,Significantly lower (<0.7%)
+27053026820,1,Hennepin County,0,654,0.9%,0.0%,Significantly lower (<0.7%)
+27053026822,2,Hennepin County,0,247,0.9%,0.0%,No significant difference
+27053026823,2,Hennepin County,0,266,0.9%,0.0%,No significant difference
+27053026903,2,Hennepin County,0,231,0.9%,0.0%,No significant difference
+27053026906,2,Hennepin County,*1-4,374,0.9%,About 0.8%,No significant difference
+27053026907,2,Hennepin County,0,213,0.9%,0.0%,No significant difference
+27053026908,2,Hennepin County,0,340,0.9%,0.0%,No significant difference
+27053026909,2,Hennepin County,0,374,0.9%,0.0%,No significant difference
+27053026910,2,Hennepin County,0,277,0.9%,0.0%,No significant difference
+27053027001,2,Hennepin County,0,101,0.9%,0.0%,No significant difference
+27053027002,2,Hennepin County,0,149,0.9%,0.0%,No significant difference
+27053027101,2,Hennepin County,*1-4,233,0.9%,About 0.8%,No significant difference
+27053027102,2,Hennepin County,0,175,0.9%,0.0%,No significant difference
+27053027201,2,Hennepin County,0,136,0.9%,0.0%,No significant difference
+27053027202,2,Hennepin County,*1-4,50,0.9%,About 0.8%,No significant difference
+27053027203,2,Hennepin County,0,64,0.9%,0.0%,No significant difference
+27053027300,2,Hennepin County,*1-4,113,0.9%,About 0.8%,No significant difference
+27053027400,2,Hennepin County,0,79,0.9%,0.0%,No significant difference
+27053027501,2,Hennepin County,*1-4,116,0.9%,About 0.8%,No significant difference
+27053027503,2,Hennepin County,0,92,0.9%,0.0%,No significant difference
+27053027504,2,Hennepin County,0,78,0.9%,0.0%,No significant difference
+27053027601,2,Hennepin County,0,108,0.9%,0.0%,No significant difference
+27053027602,2,Hennepin County,0,169,0.9%,0.0%,No significant difference
+27053027700,2,Hennepin County,0,295,0.9%,0.0%,No significant difference
+27053100200,2,Hennepin County,*1-4,287,0.9%,About 0.8%,No significant difference
+27053100400,3,Hennepin County,9,320,0.9%,2.8%,Significantly higher (1-2 times)
+27053100500,2,Hennepin County,0,113,0.9%,0.0%,No significant difference
+27053100700,2,Hennepin County,*1-4,246,0.9%,About 0.8%,No significant difference
+27053100800,2,Hennepin County,7,434,0.9%,1.6%,No significant difference
+27053100900,3,Hennepin County,15,582,0.9%,2.6%,Significantly higher (1-2 times)
+27053101200,2,Hennepin County,*1-4,314,0.9%,About 0.8%,No significant difference
+27053101300,2,Hennepin County,*1-4,212,0.9%,About 0.8%,No significant difference
+27053101600,3,Hennepin County,12,402,0.9%,3.0%,Significantly higher (1-2 times)
+27053101800,2,Hennepin County,*1-4,277,0.9%,About 0.8%,No significant difference
+27053101900,2,Hennepin County,*1-4,141,0.9%,About 0.8%,No significant difference
+27053102000,3,Hennepin County,6,250,0.9%,2.4%,Significantly higher (1-2 times)
+27053102100,3,Hennepin County,9,337,0.9%,2.7%,Significantly higher (1-2 times)
+27053102300,3,Hennepin County,*1-4,117,0.9%,> 0.8%,Significantly higher (1-2 times)
+27053102500,2,Hennepin County,*1-4,143,0.9%,About 0.8%,No significant difference
+27053102600,2,Hennepin County,*1-4,134,0.9%,About 0.8%,No significant difference
+27053102800,3,Hennepin County,11,404,0.9%,2.7%,Significantly higher (1-2 times)
+27053102900,3,Hennepin County,5,102,0.9%,4.9%,Significantly higher (1-2 times)
+27053103000,2,Hennepin County,0,69,0.9%,0.0%,No significant difference
+27053103100,3,Hennepin County,*1-4,103,0.9%,> 0.8%,Significantly higher (1-2 times)
+27053103400,2,Hennepin County,*1-4,374,0.9%,About 0.8%,No significant difference
+27053103600,2,Hennepin County,0,64,0.9%,0.0%,No significant difference
+27053103700,2,Hennepin County,0,90,0.9%,0.0%,No significant difference
+27053103900,2,Hennepin County,0,34,0.9%,0.0%,No significant difference
+27053104000,2,Hennepin County,0,349,0.9%,0.0%,No significant difference
+27053104100,2,Hennepin County,*1-4,275,0.9%,About 0.8%,No significant difference
+27053104400,4,Hennepin County,*1-4,44,0.9%,> 0.8%,Significantly higher (3+ times)
+27053104800,3,Hennepin County,12,627,0.9%,1.9%,Significantly higher (1-2 times)
+27053104900,2,Hennepin County,0,133,0.9%,0.0%,No significant difference
+27053105100,2,Hennepin County,*1-4,132,0.9%,About 0.8%,No significant difference
+27053105201,3,Hennepin County,*1-4,82,0.9%,> 0.8%,Significantly higher (1-2 times)
+27053105204,2,Hennepin County,0,94,0.9%,0.0%,No significant difference
+27053105400,2,Hennepin County,*1-4,150,0.9%,About 0.8%,No significant difference
+27053105500,3,Hennepin County,*1-4,91,0.9%,> 0.8%,Significantly higher (1-2 times)
+27053105600,2,Hennepin County,*1-4,127,0.9%,About 0.8%,No significant difference
+27053105700,2,Hennepin County,*1-4,72,0.9%,About 0.8%,No significant difference
+27053106000,3,Hennepin County,7,277,0.9%,2.5%,Significantly higher (1-2 times)
+27053106200,2,Hennepin County,*1-4,379,0.9%,About 0.8%,No significant difference
+27053106400,2,Hennepin County,0,98,0.9%,0.0%,No significant difference
+27053106500,2,Hennepin County,*1-4,157,0.9%,About 0.8%,No significant difference
+27053106600,4,Hennepin County,5,85,0.9%,5.9%,Significantly higher (3+ times)
+27053106700,2,Hennepin County,0,97,0.9%,0.0%,No significant difference
+27053106900,3,Hennepin County,*1-4,111,0.9%,> 0.8%,Significantly higher (1-2 times)
+27053107000,3,Hennepin County,6,238,0.9%,2.5%,Significantly higher (1-2 times)
+27053107400,2,Hennepin County,*1-4,152,0.9%,About 0.8%,No significant difference
+27053107500,2,Hennepin County,0,108,0.9%,0.0%,No significant difference
+27053107600,2,Hennepin County,*1-4,239,0.9%,About 0.8%,No significant difference
+27053108000,2,Hennepin County,*1-4,85,0.9%,About 0.8%,No significant difference
+27053108600,4,Hennepin County,11,248,0.9%,4.4%,Significantly higher (3+ times)
+27053108700,3,Hennepin County,9,329,0.9%,2.7%,Significantly higher (1-2 times)
+27053108800,2,Hennepin County,*1-4,279,0.9%,About 0.8%,No significant difference
+27053108900,2,Hennepin County,*1-4,161,0.9%,About 0.8%,No significant difference
+27053109000,2,Hennepin County,0,141,0.9%,0.0%,No significant difference
+27053109100,2,Hennepin County,0,145,0.9%,0.0%,No significant difference
+27053109200,2,Hennepin County,*1-4,112,0.9%,About 0.8%,No significant difference
+27053109300,3,Hennepin County,6,232,0.9%,2.6%,Significantly higher (1-2 times)
+27053109400,3,Hennepin County,9,221,0.9%,4.1%,Significantly higher (1-2 times)
+27053109700,2,Hennepin County,*1-4,176,0.9%,About 0.8%,No significant difference
+27053109800,2,Hennepin County,0,281,0.9%,0.0%,No significant difference
+27053109900,3,Hennepin County,6,263,0.9%,2.3%,Significantly higher (1-2 times)
+27053110000,3,Hennepin County,*1-4,147,0.9%,> 0.8%,Significantly higher (1-2 times)
+27053110100,2,Hennepin County,*1-4,219,0.9%,About 0.8%,No significant difference
+27053110200,2,Hennepin County,*1-4,296,0.9%,About 0.8%,No significant difference
+27053110400,2,Hennepin County,*1-4,292,0.9%,About 0.8%,No significant difference
+27053110500,2,Hennepin County,*1-4,302,0.9%,About 0.8%,No significant difference
+27053110800,2,Hennepin County,*1-4,315,0.9%,About 0.8%,No significant difference
+27053110900,2,Hennepin County,*1-4,287,0.9%,About 0.8%,No significant difference
+27053111100,2,Hennepin County,*1-4,262,0.9%,About 0.8%,No significant difference
+27053111200,2,Hennepin County,0,232,0.9%,0.0%,No significant difference
+27053111300,2,Hennepin County,*1-4,397,0.9%,About 0.8%,No significant difference
+27053111400,2,Hennepin County,0,315,0.9%,0.0%,No significant difference
+27053111500,2,Hennepin County,*1-4,351,0.9%,About 0.8%,No significant difference
+27053111600,2,Hennepin County,*1-4,230,0.9%,About 0.8%,No significant difference
+27053122500,2,Hennepin County,0,228,0.9%,0.0%,No significant difference
+27053122600,2,Hennepin County,0,141,0.9%,0.0%,No significant difference
+27053125500,2,Hennepin County,0,241,0.9%,0.0%,No significant difference
+27053125600,2,Hennepin County,*1-4,137,0.9%,About 0.8%,No significant difference
+27053125700,3,Hennepin County,12,454,0.9%,2.6%,Significantly higher (1-2 times)
+27053125800,3,Hennepin County,16,565,0.9%,2.8%,Significantly higher (1-2 times)
+27053125900,3,Hennepin County,13,534,0.9%,2.4%,Significantly higher (1-2 times)
+27053126000,3,Hennepin County,14,440,0.9%,3.2%,Significantly higher (1-2 times)
+27053126100,3,Hennepin County,9,563,0.9%,1.6%,Significantly higher (1-2 times)
+27053126200,3,Hennepin County,6,336,0.9%,1.8%,Significantly higher (1-2 times)
+27053980000,3,Hennepin County,*1-4,11,0.9%,> 0.8%,Significantly higher (1-2 times)
+27055020100,2,Houston County,0,100,0.4%,0.0%,No significant difference
+27055020200,2,Houston County,*1-4,81,0.4%,About 0.8%,No significant difference
+27055020300,2,Houston County,0,58,0.4%,0.0%,No significant difference
+27055020500,2,Houston County,0,66,0.4%,0.0%,No significant difference
+27055020900,2,Houston County,*1-4,107,0.4%,About 0.8%,No significant difference
+27057070100,2,Hubbard County,*1-4,146,0.4%,About 0.8%,No significant difference
+27057070200,3,Hubbard County,*1-4,38,0.4%,> 0.8%,Significantly higher (1-2 times)
+27057070300,2,Hubbard County,0,42,0.4%,0.0%,No significant difference
+27057070400,2,Hubbard County,0,57,0.4%,0.0%,No significant difference
+27057070500,2,Hubbard County,0,81,0.4%,0.0%,No significant difference
+27057070600,2,Hubbard County,0,143,0.4%,0.0%,No significant difference
+27057070700,2,Hubbard County,0,58,0.4%,0.0%,No significant difference
+27059130100,2,Isanti County,*1-4,123,0.6%,About 0.8%,No significant difference
+27059130200,2,Isanti County,*1-4,187,0.6%,About 0.8%,No significant difference
+27059130301,2,Isanti County,5,600,0.6%,0.8%,No significant difference
+27059130302,3,Isanti County,*1-4,118,0.6%,> 0.8%,Significantly higher (1-2 times)
+27059130400,2,Isanti County,*1-4,153,0.6%,About 0.8%,No significant difference
+27059130501,2,Isanti County,*1-4,234,0.6%,About 0.8%,No significant difference
+27059130502,2,Isanti County,*1-4,517,0.6%,About 0.8%,No significant difference
+27059130600,2,Isanti County,0,162,0.6%,0.0%,No significant difference
+27061480100,2,Itasca County,0,72,0.4%,0.0%,No significant difference
+27061480300,2,Itasca County,0,185,0.4%,0.0%,No significant difference
+27061480400,2,Itasca County,0,124,0.4%,0.0%,No significant difference
+27061480500,3,Itasca County,*1-4,93,0.4%,> 0.8%,Significantly higher (1-2 times)
+27061480600,2,Itasca County,0,124,0.4%,0.0%,No significant difference
+27061480700,2,Itasca County,0,231,0.4%,0.0%,No significant difference
+27061480801,2,Itasca County,0,128,0.4%,0.0%,No significant difference
+27061480802,2,Itasca County,*1-4,281,0.4%,About 0.8%,No significant difference
+27061480900,2,Itasca County,0,375,0.4%,0.0%,No significant difference
+27061481000,2,Itasca County,*1-4,125,0.4%,About 0.8%,No significant difference
+27061940000,2,Itasca County,0,175,0.4%,0.0%,No significant difference
+27063480100,2,Jackson County,0,62,0.8%,0.0%,No significant difference
+27063480200,2,Jackson County,0,91,0.8%,0.0%,No significant difference
+27063480300,2,Jackson County,*1-4,87,0.8%,About 0.8%,No significant difference
+27063480400,2,Jackson County,*1-4,149,0.8%,About 0.8%,No significant difference
+27065480100,2,Kanabec County,0,85,0.3%,0.0%,No significant difference
+27065480200,2,Kanabec County,0,96,0.3%,0.0%,No significant difference
+27065480300,2,Kanabec County,0,141,0.3%,0.0%,No significant difference
+27065480400,2,Kanabec County,*1-4,122,0.3%,About 0.8%,No significant difference
+27067770900,2,Kandiyohi County,*1-4,230,1.3%,About 0.8%,No significant difference
+27067780100,2,Kandiyohi County,0,109,1.3%,0.0%,No significant difference
+27067780200,2,Kandiyohi County,0,75,1.3%,0.0%,No significant difference
+27067780300,2,Kandiyohi County,0,185,1.3%,0.0%,No significant difference
+27067780400,2,Kandiyohi County,0,121,1.3%,0.0%,No significant difference
+27067780500,3,Kandiyohi County,7,359,1.3%,1.9%,Significantly higher (1-2 times)
+27067780600,2,Kandiyohi County,*1-4,207,1.3%,About 0.8%,No significant difference
+27067780700,3,Kandiyohi County,8,240,1.3%,3.3%,Significantly higher (1-2 times)
+27067780800,3,Kandiyohi County,7,197,1.3%,3.6%,Significantly higher (1-2 times)
+27067781000,2,Kandiyohi County,7,444,1.3%,1.6%,No significant difference
+27067781100,2,Kandiyohi County,*1-4,104,1.3%,About 0.8%,No significant difference
+27067781200,2,Kandiyohi County,0,136,1.3%,0.0%,No significant difference
+27069090100,2,Kittson County,0,38,0.0%,0.0%,No significant difference
+27069090200,2,Kittson County,0,16,0.0%,0.0%,No significant difference
+27071790100,2,Koochiching County,*1-4,79,0.4%,About 0.8%,No significant difference
+27071790200,2,Koochiching County,0,204,0.4%,0.0%,No significant difference
+27071790300,2,Koochiching County,0,61,0.4%,0.0%,No significant difference
+27071790500,2,Koochiching County,0,49,0.4%,0.0%,No significant difference
+27073180100,2,Lac qui Parle County,*1-4,76,0.9%,About 0.8%,No significant difference
+27073180200,2,Lac qui Parle County,0,70,0.9%,0.0%,No significant difference
+27073180300,2,Lac qui Parle County,0,122,0.9%,0.0%,No significant difference
+27075370100,2,Lake County,*1-4,120,1.0%,About 0.8%,No significant difference
+27075370300,2,Lake County,0,99,1.0%,0.0%,No significant difference
+27075370400,2,Lake County,*1-4,195,1.0%,About 0.8%,No significant difference
+27077460300,2,Lake of the Woods County,0,14,0.0%,0.0%,No significant difference
+27077460400,2,Lake of the Woods County,0,18,0.0%,0.0%,No significant difference
+27079950100,2,Le Sueur County,*1-4,287,0.6%,About 0.8%,No significant difference
+27079950200,2,Le Sueur County,*1-4,223,0.6%,About 0.8%,No significant difference
+27079950300,2,Le Sueur County,*1-4,240,0.6%,About 0.8%,No significant difference
+27079950400,2,Le Sueur County,*1-4,146,0.6%,About 0.8%,No significant difference
+27079950500,2,Le Sueur County,0,217,0.6%,0.0%,No significant difference
+27079950600,2,Le Sueur County,*1-4,133,0.6%,About 0.8%,No significant difference
+27081201001,2,Lincoln County,0,39,0.0%,0.0%,No significant difference
+27081201002,2,Lincoln County,0,31,0.0%,0.0%,No significant difference
+27083360100,2,Lyon County,0,93,0.6%,0.0%,No significant difference
+27083360200,2,Lyon County,0,82,0.6%,0.0%,No significant difference
+27083360300,2,Lyon County,*1-4,187,0.6%,About 0.8%,No significant difference
+27083360400,2,Lyon County,*1-4,124,0.6%,About 0.8%,No significant difference
+27083360500,2,Lyon County,*1-4,105,0.6%,About 0.8%,No significant difference
+27083360600,2,Lyon County,0,84,0.6%,0.0%,No significant difference
+27083360700,2,Lyon County,*1-4,68,0.6%,About 0.8%,No significant difference
+27085950100,2,McLeod County,*1-4,190,0.5%,About 0.8%,No significant difference
+27085950200,2,McLeod County,0,117,0.5%,0.0%,No significant difference
+27085950300,2,McLeod County,*1-4,309,0.5%,About 0.8%,No significant difference
+27085950400,2,McLeod County,0,300,0.5%,0.0%,No significant difference
+27085950500,2,McLeod County,0,82,0.5%,0.0%,No significant difference
+27085950600,2,McLeod County,0,154,0.5%,0.0%,No significant difference
+27085950700,2,McLeod County,*1-4,307,0.5%,About 0.8%,No significant difference
+27087940100,2,Mahnomen County,*1-4,132,0.9%,About 0.8%,No significant difference
+27087940300,2,Mahnomen County,*1-4,125,0.9%,About 0.8%,No significant difference
+27089080100,2,Marshall County,0,54,0.8%,0.0%,No significant difference
+27089080200,2,Marshall County,*1-4,83,0.8%,About 0.8%,No significant difference
+27089080300,3,Marshall County,*1-4,16,0.8%,> 0.8%,Significantly higher (1-2 times)
+27089080400,2,Marshall County,0,32,0.8%,0.0%,No significant difference
+27091790100,2,Martin County,0,110,1.7%,0.0%,No significant difference
+27091790200,2,Martin County,*1-4,93,1.7%,About 0.8%,No significant difference
+27091790300,2,Martin County,*1-4,93,1.7%,About 0.8%,No significant difference
+27091790400,2,Martin County,*1-4,66,1.7%,About 0.8%,No significant difference
+27091790500,2,Martin County,*1-4,240,1.7%,About 0.8%,No significant difference
+27091790600,2,Martin County,*1-4,215,1.7%,About 0.8%,No significant difference
+27093560100,2,Meeker County,*1-4,233,0.4%,About 0.8%,No significant difference
+27093560200,2,Meeker County,0,188,0.4%,0.0%,No significant difference
+27093560300,2,Meeker County,0,88,0.4%,0.0%,No significant difference
+27093560400,2,Meeker County,*1-4,82,0.4%,About 0.8%,No significant difference
+27093560500,2,Meeker County,*1-4,105,0.4%,About 0.8%,No significant difference
+27093560600,2,Meeker County,0,91,0.4%,0.0%,No significant difference
+27095170400,2,Mille Lacs County,*1-4,211,0.2%,About 0.8%,No significant difference
+27095170500,2,Mille Lacs County,0,196,0.2%,0.0%,No significant difference
+27095170600,2,Mille Lacs County,0,98,0.2%,0.0%,No significant difference
+27095170700,2,Mille Lacs County,*1-4,192,0.2%,About 0.8%,No significant difference
+27095970100,2,Mille Lacs County,0,38,0.2%,0.0%,No significant difference
+27095970200,2,Mille Lacs County,0,103,0.2%,0.0%,No significant difference
+27095970300,2,Mille Lacs County,0,102,0.2%,0.0%,No significant difference
+27097780100,2,Morrison County,*1-4,115,0.2%,About 0.8%,No significant difference
+27097780200,2,Morrison County,0,230,0.2%,0.0%,No significant difference
+27097780300,2,Morrison County,*1-4,364,0.2%,About 0.8%,No significant difference
+27097780400,2,Morrison County,0,118,0.2%,0.0%,No significant difference
+27097780500,2,Morrison County,0,300,0.2%,0.0%,No significant difference
+27097780600,2,Morrison County,*1-4,362,0.2%,About 0.8%,No significant difference
+27097780700,2,Morrison County,0,153,0.2%,0.0%,No significant difference
+27097780800,2,Morrison County,0,236,0.2%,0.0%,No significant difference
+27099000100,2,Mower County,*1-4,72,1.8%,About 0.8%,No significant difference
+27099000200,2,Mower County,0,124,1.8%,0.0%,No significant difference
+27099000300,4,Mower County,16,402,1.8%,4.0%,Significantly higher (3+ times)
+27099000410,2,Mower County,5,379,1.8%,1.3%,No significant difference
+27099000600,2,Mower County,*1-4,186,1.8%,About 0.8%,No significant difference
+27099000800,3,Mower County,9,258,1.8%,3.5%,Significantly higher (1-2 times)
+27099000900,2,Mower County,*1-4,205,1.8%,About 0.8%,No significant difference
+27099001000,2,Mower County,*1-4,111,1.8%,About 0.8%,No significant difference
+27099001200,2,Mower County,0,45,1.8%,0.0%,No significant difference
+27099001300,2,Mower County,*1-4,131,1.8%,About 0.8%,No significant difference
+27099001400,2,Mower County,*1-4,88,1.8%,About 0.8%,No significant difference
+27101900100,2,Murray County,0,41,1.1%,0.0%,No significant difference
+27101900200,2,Murray County,*1-4,92,1.1%,About 0.8%,No significant difference
+27101900300,2,Murray County,0,78,1.1%,0.0%,No significant difference
+27103480100,2,Nicollet County,0,160,0.7%,0.0%,No significant difference
+27103480200,2,Nicollet County,*1-4,244,0.7%,About 0.8%,No significant difference
+27103480300,2,Nicollet County,*1-4,242,0.7%,About 0.8%,No significant difference
+27103480400,3,Nicollet County,*1-4,176,0.7%,> 0.8%,Significantly higher (1-2 times)
+27103480501,2,Nicollet County,*1-4,384,0.7%,About 0.8%,No significant difference
+27103480502,2,Nicollet County,0,112,0.7%,0.0%,No significant difference
+27103480600,2,Nicollet County,*1-4,177,0.7%,About 0.8%,No significant difference
+27105105100,2,Nobles County,0,101,1.1%,0.0%,No significant difference
+27105105200,2,Nobles County,0,85,1.1%,0.0%,No significant difference
+27105105300,3,Nobles County,*1-4,87,1.1%,> 0.8%,Significantly higher (1-2 times)
+27105105400,2,Nobles County,*1-4,489,1.1%,About 0.8%,No significant difference
+27105105500,3,Nobles County,7,414,1.1%,1.7%,Significantly higher (1-2 times)
+27105105600,2,Nobles County,6,353,1.1%,1.7%,No significant difference
+27107960100,2,Norman County,*1-4,78,2.1%,About 0.8%,No significant difference
+27107960200,3,Norman County,*1-4,67,2.1%,> 0.8%,Significantly higher (1-2 times)
+27107960300,2,Norman County,*1-4,105,2.1%,About 0.8%,No significant difference
+27109000100,3,Olmsted County,*1-4,8,0.7%,> 0.8%,Significantly higher (1-2 times)
+27109000200,2,Olmsted County,*1-4,193,0.7%,About 0.8%,No significant difference
+27109000300,2,Olmsted County,*1-4,129,0.7%,About 0.8%,No significant difference
+27109000400,2,Olmsted County,*1-4,87,0.7%,About 0.8%,No significant difference
+27109000500,3,Olmsted County,*1-4,95,0.7%,> 0.8%,Significantly higher (1-2 times)
+27109000600,2,Olmsted County,*1-4,139,0.7%,About 0.8%,No significant difference
+27109000901,2,Olmsted County,*1-4,244,0.7%,About 0.8%,No significant difference
+27109000902,2,Olmsted County,*1-4,150,0.7%,About 0.8%,No significant difference
+27109000903,2,Olmsted County,0,38,0.7%,0.0%,No significant difference
+27109001000,2,Olmsted County,0,170,0.7%,0.0%,No significant difference
+27109001100,2,Olmsted County,*1-4,71,0.7%,About 0.8%,No significant difference
+27109001201,2,Olmsted County,0,39,0.7%,0.0%,No significant difference
+27109001202,2,Olmsted County,0,50,0.7%,0.0%,No significant difference
+27109001203,2,Olmsted County,0,38,0.7%,0.0%,No significant difference
+27109001301,2,Olmsted County,0,95,0.7%,0.0%,No significant difference
+27109001302,2,Olmsted County,*1-4,74,0.7%,About 0.8%,No significant difference
+27109001401,2,Olmsted County,0,179,0.7%,0.0%,No significant difference
+27109001402,2,Olmsted County,*1-4,291,0.7%,About 0.8%,No significant difference
+27109001501,2,Olmsted County,0,74,0.7%,0.0%,No significant difference
+27109001502,2,Olmsted County,0,36,0.7%,0.0%,No significant difference
+27109001503,2,Olmsted County,*1-4,48,0.7%,About 0.8%,No significant difference
+27109001601,2,Olmsted County,0,110,0.7%,0.0%,No significant difference
+27109001602,2,Olmsted County,0,41,0.7%,0.0%,No significant difference
+27109001603,3,Olmsted County,*1-4,36,0.7%,> 0.8%,Significantly higher (1-2 times)
+27109001701,2,Olmsted County,*1-4,180,0.7%,About 0.8%,No significant difference
+27109001702,2,Olmsted County,0,179,0.7%,0.0%,No significant difference
+27109001703,2,Olmsted County,0,67,0.7%,0.0%,No significant difference
+27109001800,2,Olmsted County,0,54,0.7%,0.0%,No significant difference
+27109001900,2,Olmsted County,*1-4,97,0.7%,About 0.8%,No significant difference
+27109002000,2,Olmsted County,0,108,0.7%,0.0%,No significant difference
+27109002100,2,Olmsted County,*1-4,169,0.7%,About 0.8%,No significant difference
+27109002200,2,Olmsted County,0,37,0.7%,0.0%,No significant difference
+27109002300,2,Olmsted County,0,105,0.7%,0.0%,No significant difference
+27111960102,2,Otter Tail County,0,80,0.9%,0.0%,No significant difference
+27111960103,2,Otter Tail County,0,39,0.9%,0.0%,No significant difference
+27111960300,2,Otter Tail County,*1-4,189,0.9%,About 0.8%,No significant difference
+27111960400,2,Otter Tail County,0,53,0.9%,0.0%,No significant difference
+27111960500,2,Otter Tail County,*1-4,273,0.9%,About 0.8%,No significant difference
+27111960600,2,Otter Tail County,*1-4,169,0.9%,About 0.8%,No significant difference
+27111960700,2,Otter Tail County,0,79,0.9%,0.0%,No significant difference
+27111960800,2,Otter Tail County,*1-4,101,0.9%,About 0.8%,No significant difference
+27111960900,2,Otter Tail County,0,160,0.9%,0.0%,No significant difference
+27111961000,2,Otter Tail County,*1-4,88,0.9%,About 0.8%,No significant difference
+27111961100,2,Otter Tail County,*1-4,147,0.9%,About 0.8%,No significant difference
+27111961200,3,Otter Tail County,*1-4,45,0.9%,> 0.8%,Significantly higher (1-2 times)
+27111961300,2,Otter Tail County,*1-4,160,0.9%,About 0.8%,No significant difference
+27111961400,2,Otter Tail County,0,63,0.9%,0.0%,No significant difference
+27111961500,2,Otter Tail County,*1-4,99,0.9%,About 0.8%,No significant difference
+27111961600,2,Otter Tail County,*1-4,69,0.9%,About 0.8%,No significant difference
+27111961700,2,Otter Tail County,0,68,0.9%,0.0%,No significant difference
+27113090100,2,Pennington County,0,69,0.6%,0.0%,No significant difference
+27113090200,2,Pennington County,*1-4,86,0.6%,About 0.8%,No significant difference
+27113090300,2,Pennington County,0,68,0.6%,0.0%,No significant difference
+27113090400,2,Pennington County,0,88,0.6%,0.0%,No significant difference
+27113090500,2,Pennington County,0,149,0.6%,0.0%,No significant difference
+27115950100,2,Pine County,0,49,0.5%,0.0%,No significant difference
+27115950200,2,Pine County,0,99,0.5%,0.0%,No significant difference
+27115950300,2,Pine County,0,67,0.5%,0.0%,No significant difference
+27115950400,2,Pine County,0,100,0.5%,0.0%,No significant difference
+27115950500,2,Pine County,*1-4,152,0.5%,About 0.8%,No significant difference
+27115950600,2,Pine County,*1-4,136,0.5%,About 0.8%,No significant difference
+27115950700,2,Pine County,*1-4,96,0.5%,About 0.8%,No significant difference
+27115950800,2,Pine County,0,98,0.5%,0.0%,No significant difference
+27117460100,2,Pipestone County,0,28,0.5%,0.0%,No significant difference
+27117460200,2,Pipestone County,*1-4,41,0.5%,About 0.8%,No significant difference
+27117460300,2,Pipestone County,0,64,0.5%,0.0%,No significant difference
+27117460400,2,Pipestone County,0,19,0.5%,0.0%,No significant difference
+27117460500,2,Pipestone County,0,25,0.5%,0.0%,No significant difference
+27119020100,2,Polk County,*1-4,189,1.9%,About 0.8%,No significant difference
+27119020200,2,Polk County,*1-4,51,1.9%,About 0.8%,No significant difference
+27119020300,2,Polk County,0,15,1.9%,0.0%,No significant difference
+27119020400,2,Polk County,0,27,1.9%,0.0%,No significant difference
+27119020500,3,Polk County,*1-4,51,1.9%,> 0.8%,Significantly higher (1-2 times)
+27119020600,3,Polk County,*1-4,132,1.9%,> 0.8%,Significantly higher (1-2 times)
+27119020700,3,Polk County,*1-4,72,1.9%,> 0.8%,Significantly higher (1-2 times)
+27119020800,2,Polk County,0,35,1.9%,0.0%,No significant difference
+27119020900,2,Polk County,0,76,1.9%,0.0%,No significant difference
+27119021000,2,Polk County,*1-4,101,1.9%,About 0.8%,No significant difference
+27121970100,2,Pope County,0,94,0.4%,0.0%,No significant difference
+27121970200,2,Pope County,*1-4,87,0.4%,About 0.8%,No significant difference
+27121970300,2,Pope County,0,104,0.4%,0.0%,No significant difference
+27121970400,2,Pope County,*1-4,113,0.4%,About 0.8%,No significant difference
+27123030100,2,Ramsey County,*1-4,238,1.5%,About 0.8%,No significant difference
+27123030201,2,Ramsey County,0,303,1.5%,0.0%,No significant difference
+27123030202,3,Ramsey County,*1-4,85,1.5%,> 0.8%,Significantly higher (1-2 times)
+27123030300,2,Ramsey County,*1-4,374,1.5%,About 0.8%,No significant difference
+27123030400,3,Ramsey County,10,616,1.5%,1.6%,Significantly higher (1-2 times)
+27123030500,2,Ramsey County,7,642,1.5%,1.1%,No significant difference
+27123030601,2,Ramsey County,*1-4,763,1.5%,About 0.8%,No significant difference
+27123030602,2,Ramsey County,5,428,1.5%,1.2%,No significant difference
+27123030702,2,Ramsey County,*1-4,451,1.5%,About 0.8%,No significant difference
+27123030703,2,Ramsey County,*1-4,432,1.5%,About 0.8%,No significant difference
+27123030704,2,Ramsey County,5,500,1.5%,1.0%,No significant difference
+27123030800,3,Ramsey County,17,548,1.5%,3.1%,Significantly higher (1-2 times)
+27123030900,3,Ramsey County,10,407,1.5%,2.5%,Significantly higher (1-2 times)
+27123031000,4,Ramsey County,21,388,1.5%,5.4%,Significantly higher (3+ times)
+27123031100,3,Ramsey County,7,404,1.5%,1.7%,Significantly higher (1-2 times)
+27123031200,3,Ramsey County,5,209,1.5%,2.4%,Significantly higher (1-2 times)
+27123031300,4,Ramsey County,12,252,1.5%,4.8%,Significantly higher (3+ times)
+27123031400,4,Ramsey County,19,302,1.5%,6.3%,Significantly higher (3+ times)
+27123031500,4,Ramsey County,20,365,1.5%,5.5%,Significantly higher (3+ times)
+27123031600,3,Ramsey County,12,486,1.5%,2.5%,Significantly higher (1-2 times)
+27123031701,4,Ramsey County,14,307,1.5%,4.6%,Significantly higher (3+ times)
+27123031702,2,Ramsey County,9,702,1.5%,1.3%,No significant difference
+27123031801,2,Ramsey County,8,561,1.5%,1.4%,No significant difference
+27123031802,2,Ramsey County,*1-4,366,1.5%,About 0.8%,No significant difference
+27123031900,2,Ramsey County,*1-4,138,1.5%,About 0.8%,No significant difference
+27123032000,3,Ramsey County,6,179,1.5%,3.4%,Significantly higher (1-2 times)
+27123032100,3,Ramsey County,5,131,1.5%,3.8%,Significantly higher (1-2 times)
+27123032200,4,Ramsey County,8,126,1.5%,6.3%,Significantly higher (3+ times)
+27123032300,3,Ramsey County,6,281,1.5%,2.1%,Significantly higher (1-2 times)
+27123032400,2,Ramsey County,5,270,1.5%,1.9%,No significant difference
+27123032500,4,Ramsey County,20,382,1.5%,5.2%,Significantly higher (3+ times)
+27123032600,4,Ramsey County,17,320,1.5%,5.3%,Significantly higher (3+ times)
+27123032700,4,Ramsey County,17,330,1.5%,5.2%,Significantly higher (3+ times)
+27123033000,4,Ramsey County,8,164,1.5%,4.9%,Significantly higher (3+ times)
+27123033100,4,Ramsey County,13,135,1.5%,9.6%,Significantly higher (3+ times)
+27123033200,2,Ramsey County,*1-4,186,1.5%,About 0.8%,No significant difference
+27123033300,3,Ramsey County,*1-4,134,1.5%,> 0.8%,Significantly higher (1-2 times)
+27123033400,2,Ramsey County,*1-4,221,1.5%,About 0.8%,No significant difference
+27123033500,3,Ramsey County,11,328,1.5%,3.4%,Significantly higher (1-2 times)
+27123033600,2,Ramsey County,0,209,1.5%,0.0%,No significant difference
+27123033700,3,Ramsey County,5,174,1.5%,2.9%,Significantly higher (1-2 times)
+27123033800,4,Ramsey County,7,145,1.5%,4.8%,Significantly higher (3+ times)
+27123033900,2,Ramsey County,*1-4,119,1.5%,About 0.8%,No significant difference
+27123034000,3,Ramsey County,*1-4,62,1.5%,> 0.8%,Significantly higher (1-2 times)
+27123034201,2,Ramsey County,*1-4,78,1.5%,About 0.8%,No significant difference
+27123034202,2,Ramsey County,*1-4,112,1.5%,About 0.8%,No significant difference
+27123034400,4,Ramsey County,14,198,1.5%,7.1%,Significantly higher (3+ times)
+27123034500,4,Ramsey County,16,416,1.5%,3.8%,Significantly higher (3+ times)
+27123034601,3,Ramsey County,15,552,1.5%,2.7%,Significantly higher (1-2 times)
+27123034602,2,Ramsey County,5,449,1.5%,1.1%,No significant difference
+27123034701,2,Ramsey County,*1-4,417,1.5%,About 0.8%,No significant difference
+27123034702,2,Ramsey County,5,369,1.5%,1.4%,No significant difference
+27123034900,2,Ramsey County,*1-4,133,1.5%,About 0.8%,No significant difference
+27123035000,2,Ramsey County,*1-4,107,1.5%,About 0.8%,No significant difference
+27123035100,2,Ramsey County,*1-4,89,1.5%,About 0.8%,No significant difference
+27123035200,3,Ramsey County,7,190,1.5%,3.7%,Significantly higher (1-2 times)
+27123035300,3,Ramsey County,5,206,1.5%,2.4%,Significantly higher (1-2 times)
+27123035500,3,Ramsey County,*1-4,65,1.5%,> 0.8%,Significantly higher (1-2 times)
+27123035700,3,Ramsey County,*1-4,97,1.5%,> 0.8%,Significantly higher (1-2 times)
+27123035800,2,Ramsey County,*1-4,62,1.5%,About 0.8%,No significant difference
+27123035900,4,Ramsey County,*1-4,23,1.5%,> 0.8%,Significantly higher (3+ times)
+27123036000,3,Ramsey County,*1-4,138,1.5%,> 0.8%,Significantly higher (1-2 times)
+27123036100,2,Ramsey County,*1-4,123,1.5%,About 0.8%,No significant difference
+27123036300,2,Ramsey County,*1-4,187,1.5%,About 0.8%,No significant difference
+27123036400,2,Ramsey County,*1-4,246,1.5%,About 0.8%,No significant difference
+27123036500,2,Ramsey County,*1-4,235,1.5%,About 0.8%,No significant difference
+27123036600,2,Ramsey County,*1-4,267,1.5%,About 0.8%,No significant difference
+27123036700,2,Ramsey County,*1-4,232,1.5%,About 0.8%,No significant difference
+27123036800,2,Ramsey County,*1-4,123,1.5%,About 0.8%,No significant difference
+27123036900,4,Ramsey County,7,148,1.5%,4.7%,Significantly higher (3+ times)
+27123037000,4,Ramsey County,10,219,1.5%,4.6%,Significantly higher (3+ times)
+27123037100,4,Ramsey County,14,345,1.5%,4.1%,Significantly higher (3+ times)
+27123037200,3,Ramsey County,9,460,1.5%,2.0%,Significantly higher (1-2 times)
+27123037402,2,Ramsey County,*1-4,297,1.5%,About 0.8%,No significant difference
+27123037403,2,Ramsey County,*1-4,686,1.5%,About 0.8%,No significant difference
+27123037500,2,Ramsey County,*1-4,382,1.5%,About 0.8%,No significant difference
+27123037601,2,Ramsey County,*1-4,241,1.5%,About 0.8%,No significant difference
+27123037602,2,Ramsey County,*1-4,386,1.5%,About 0.8%,No significant difference
+27123040100,2,Ramsey County,0,283,1.5%,0.0%,No significant difference
+27123040200,2,Ramsey County,0,59,1.5%,0.0%,No significant difference
+27123040301,2,Ramsey County,0,81,1.5%,0.0%,No significant difference
+27123040302,2,Ramsey County,*1-4,335,1.5%,About 0.8%,No significant difference
+27123040401,2,Ramsey County,*1-4,207,1.5%,About 0.8%,No significant difference
+27123040402,2,Ramsey County,*1-4,333,1.5%,About 0.8%,No significant difference
+27123040502,2,Ramsey County,0,132,1.5%,0.0%,No significant difference
+27123040503,2,Ramsey County,0,195,1.5%,0.0%,No significant difference
+27123040504,2,Ramsey County,0,216,1.5%,0.0%,No significant difference
+27123040601,2,Ramsey County,0,182,1.5%,0.0%,No significant difference
+27123040603,2,Ramsey County,0,227,1.5%,0.0%,No significant difference
+27123040604,2,Ramsey County,*1-4,425,1.5%,About 0.8%,No significant difference
+27123040703,2,Ramsey County,*1-4,361,1.5%,About 0.8%,No significant difference
+27123040704,2,Ramsey County,0,323,1.5%,0.0%,No significant difference
+27123040705,2,Ramsey County,0,242,1.5%,0.0%,No significant difference
+27123040706,2,Ramsey County,0,198,1.5%,0.0%,No significant difference
+27123040707,2,Ramsey County,*1-4,186,1.5%,About 0.8%,No significant difference
+27123040801,2,Ramsey County,0,191,1.5%,0.0%,No significant difference
+27123040802,2,Ramsey County,0,7,1.5%,0.0%,No significant difference
+27123040803,2,Ramsey County,0,232,1.5%,0.0%,No significant difference
+27123040901,2,Ramsey County,0,125,1.5%,0.0%,No significant difference
+27123040902,2,Ramsey County,5,371,1.5%,1.3%,No significant difference
+27123041001,2,Ramsey County,0,219,1.5%,0.0%,No significant difference
+27123041002,2,Ramsey County,0,291,1.5%,0.0%,No significant difference
+27123041103,2,Ramsey County,*1-4,230,1.5%,About 0.8%,No significant difference
+27123041104,2,Ramsey County,*1-4,121,1.5%,About 0.8%,No significant difference
+27123041105,2,Ramsey County,0,368,1.5%,0.0%,No significant difference
+27123041106,2,Ramsey County,0,285,1.5%,0.0%,No significant difference
+27123041107,2,Ramsey County,*1-4,483,1.5%,About 0.8%,No significant difference
+27123041200,2,Ramsey County,0,388,1.5%,0.0%,No significant difference
+27123041301,2,Ramsey County,0,227,1.5%,0.0%,No significant difference
+27123041302,2,Ramsey County,0,175,1.5%,0.0%,No significant difference
+27123041400,2,Ramsey County,*1-4,353,1.5%,About 0.8%,No significant difference
+27123041500,2,Ramsey County,*1-4,249,1.5%,About 0.8%,No significant difference
+27123041601,2,Ramsey County,*1-4,358,1.5%,About 0.8%,No significant difference
+27123041602,3,Ramsey County,6,308,1.5%,1.9%,Significantly higher (1-2 times)
+27123041700,2,Ramsey County,*1-4,160,1.5%,About 0.8%,No significant difference
+27123041800,2,Ramsey County,0,285,1.5%,0.0%,No significant difference
+27123041900,2,Ramsey County,*1-4,239,1.5%,About 0.8%,No significant difference
+27123042001,2,Ramsey County,*1-4,152,1.5%,About 0.8%,No significant difference
+27123042002,2,Ramsey County,*1-4,111,1.5%,About 0.8%,No significant difference
+27123042101,2,Ramsey County,*1-4,307,1.5%,About 0.8%,No significant difference
+27123042102,2,Ramsey County,*1-4,313,1.5%,About 0.8%,No significant difference
+27123042201,2,Ramsey County,0,125,1.5%,0.0%,No significant difference
+27123042202,2,Ramsey County,5,368,1.5%,1.4%,No significant difference
+27123042301,2,Ramsey County,*1-4,151,1.5%,About 0.8%,No significant difference
+27123042302,2,Ramsey County,*1-4,341,1.5%,About 0.8%,No significant difference
+27123042401,2,Ramsey County,*1-4,399,1.5%,About 0.8%,No significant difference
+27123042402,2,Ramsey County,*1-4,460,1.5%,About 0.8%,No significant difference
+27123042501,2,Ramsey County,*1-4,371,1.5%,About 0.8%,No significant difference
+27123042503,2,Ramsey County,0,168,1.5%,0.0%,No significant difference
+27123042504,2,Ramsey County,*1-4,258,1.5%,About 0.8%,No significant difference
+27123042601,2,Ramsey County,*1-4,311,1.5%,About 0.8%,No significant difference
+27123042602,2,Ramsey County,*1-4,161,1.5%,About 0.8%,No significant difference
+27123042700,2,Ramsey County,*1-4,363,1.5%,About 0.8%,No significant difference
+27123042800,3,Ramsey County,6,172,1.5%,3.5%,Significantly higher (1-2 times)
+27123042900,4,Ramsey County,13,173,1.5%,7.5%,Significantly higher (3+ times)
+27123043000,2,Ramsey County,*1-4,334,1.5%,About 0.8%,No significant difference
+27125010100,2,Red Lake County,0,40,0.0%,0.0%,No significant difference
+27125010200,2,Red Lake County,0,39,0.0%,0.0%,No significant difference
+27127750100,2,Redwood County,0,123,0.5%,0.0%,No significant difference
+27127750200,2,Redwood County,*1-4,120,0.5%,About 0.8%,No significant difference
+27127750300,2,Redwood County,*1-4,62,0.5%,About 0.8%,No significant difference
+27127750400,2,Redwood County,0,95,0.5%,0.0%,No significant difference
+27127750500,2,Redwood County,0,96,0.5%,0.0%,No significant difference
+27127750600,2,Redwood County,*1-4,65,0.5%,About 0.8%,No significant difference
+27129790100,2,Renville County,*1-4,89,1.8%,About 0.8%,No significant difference
+27129790200,2,Renville County,0,68,1.8%,0.0%,No significant difference
+27129790300,2,Renville County,*1-4,87,1.8%,About 0.8%,No significant difference
+27129790400,3,Renville County,*1-4,98,1.8%,> 0.8%,Significantly higher (1-2 times)
+27129790500,2,Renville County,*1-4,146,1.8%,About 0.8%,No significant difference
+27129790600,2,Renville County,*1-4,100,1.8%,About 0.8%,No significant difference
+27131070100,2,Rice County,*1-4,595,1.0%,About 0.8%,No significant difference
+27131070200,2,Rice County,*1-4,287,1.0%,About 0.8%,No significant difference
+27131070300,2,Rice County,*1-4,207,1.0%,About 0.8%,No significant difference
+27131070400,2,Rice County,*1-4,195,1.0%,About 0.8%,No significant difference
+27131070501,2,Rice County,*1-4,107,1.0%,About 0.8%,No significant difference
+27131070503,2,Rice County,0,130,1.0%,0.0%,No significant difference
+27131070504,2,Rice County,*1-4,175,1.0%,About 0.8%,No significant difference
+27131070601,3,Rice County,5,246,1.0%,2.0%,Significantly higher (1-2 times)
+27131070602,2,Rice County,0,120,1.0%,0.0%,No significant difference
+27131070700,3,Rice County,9,316,1.0%,2.8%,Significantly higher (1-2 times)
+27131070800,2,Rice County,*1-4,608,1.0%,About 0.8%,No significant difference
+27131070901,3,Rice County,7,419,1.0%,1.7%,Significantly higher (1-2 times)
+27131070902,3,Rice County,8,322,1.0%,2.5%,Significantly higher (1-2 times)
+27133570100,3,Rock County,*1-4,16,5.5%,> 0.8%,Significantly higher (1-2 times)
+27133570200,4,Rock County,*1-4,27,5.5%,> 0.8%,Significantly higher (3+ times)
+27133570300,2,Rock County,0,50,5.5%,0.0%,No significant difference
+27135970100,2,Roseau County,0,57,0.3%,0.0%,No significant difference
+27135970200,2,Roseau County,0,13,0.3%,0.0%,No significant difference
+27135970300,2,Roseau County,0,58,0.3%,0.0%,No significant difference
+27135970400,2,Roseau County,*1-4,47,0.3%,About 0.8%,No significant difference
+27135970500,2,Roseau County,0,34,0.3%,0.0%,No significant difference
+27137000100,2,St. Louis County,*1-4,270,1.3%,About 0.8%,No significant difference
+27137000200,2,St. Louis County,*1-4,268,1.3%,About 0.8%,No significant difference
+27137000300,2,St. Louis County,*1-4,381,1.3%,About 0.8%,No significant difference
+27137000400,2,St. Louis County,*1-4,173,1.3%,About 0.8%,No significant difference
+27137000500,3,St. Louis County,5,178,1.3%,2.8%,Significantly higher (1-2 times)
+27137000600,2,St. Louis County,*1-4,313,1.3%,About 0.8%,No significant difference
+27137000700,3,St. Louis County,*1-4,170,1.3%,> 0.8%,Significantly higher (1-2 times)
+27137000900,3,St. Louis County,7,203,1.3%,3.4%,Significantly higher (1-2 times)
+27137001000,4,St. Louis County,7,100,1.3%,7.0%,Significantly higher (3+ times)
+27137001100,2,St. Louis County,*1-4,72,1.3%,About 0.8%,No significant difference
+27137001200,3,St. Louis County,*1-4,81,1.3%,> 0.8%,Significantly higher (1-2 times)
+27137001300,4,St. Louis County,5,75,1.3%,6.7%,Significantly higher (3+ times)
+27137001400,2,St. Louis County,*1-4,80,1.3%,About 0.8%,No significant difference
+27137001600,4,St. Louis County,8,90,1.3%,8.9%,Significantly higher (3+ times)
+27137001700,3,St. Louis County,*1-4,57,1.3%,> 0.8%,Significantly higher (1-2 times)
+27137001800,2,St. Louis County,*1-4,143,1.3%,About 0.8%,No significant difference
+27137001900,3,St. Louis County,*1-4,42,1.3%,> 0.8%,Significantly higher (1-2 times)
+27137002000,2,St. Louis County,0,53,1.3%,0.0%,No significant difference
+27137002200,2,St. Louis County,0,22,1.3%,0.0%,No significant difference
+27137002300,2,St. Louis County,0,248,1.3%,0.0%,No significant difference
+27137002400,3,St. Louis County,*1-4,51,1.3%,> 0.8%,Significantly higher (1-2 times)
+27137002600,3,St. Louis County,*1-4,128,1.3%,> 0.8%,Significantly higher (1-2 times)
+27137002900,2,St. Louis County,0,57,1.3%,0.0%,No significant difference
+27137003000,2,St. Louis County,*1-4,86,1.3%,About 0.8%,No significant difference
+27137003300,3,St. Louis County,*1-4,178,1.3%,> 0.8%,Significantly higher (1-2 times)
+27137003400,3,St. Louis County,*1-4,66,1.3%,> 0.8%,Significantly higher (1-2 times)
+27137003600,2,St. Louis County,*1-4,93,1.3%,About 0.8%,No significant difference
+27137003700,2,St. Louis County,0,134,1.3%,0.0%,No significant difference
+27137003800,2,St. Louis County,*1-4,134,1.3%,About 0.8%,No significant difference
+27137010100,2,St. Louis County,0,166,1.3%,0.0%,No significant difference
+27137010200,2,St. Louis County,0,70,1.3%,0.0%,No significant difference
+27137010300,2,St. Louis County,*1-4,479,1.3%,About 0.8%,No significant difference
+27137010400,2,St. Louis County,0,205,1.3%,0.0%,No significant difference
+27137010500,2,St. Louis County,0,203,1.3%,0.0%,No significant difference
+27137010600,2,St. Louis County,*1-4,276,1.3%,About 0.8%,No significant difference
+27137011100,2,St. Louis County,0,349,1.3%,0.0%,No significant difference
+27137011200,2,St. Louis County,*1-4,141,1.3%,About 0.8%,No significant difference
+27137011300,2,St. Louis County,*1-4,107,1.3%,About 0.8%,No significant difference
+27137011400,2,St. Louis County,*1-4,98,1.3%,About 0.8%,No significant difference
+27137012100,2,St. Louis County,*1-4,198,1.3%,About 0.8%,No significant difference
+27137012200,2,St. Louis County,*1-4,84,1.3%,About 0.8%,No significant difference
+27137012300,2,St. Louis County,*1-4,142,1.3%,About 0.8%,No significant difference
+27137012400,2,St. Louis County,*1-4,222,1.3%,About 0.8%,No significant difference
+27137012500,2,St. Louis County,0,157,1.3%,0.0%,No significant difference
+27137012600,3,St. Louis County,6,231,1.3%,2.6%,Significantly higher (1-2 times)
+27137012700,2,St. Louis County,0,76,1.3%,0.0%,No significant difference
+27137012800,2,St. Louis County,0,122,1.3%,0.0%,No significant difference
+27137013000,2,St. Louis County,*1-4,65,1.3%,About 0.8%,No significant difference
+27137013100,3,St. Louis County,*1-4,148,1.3%,> 0.8%,Significantly higher (1-2 times)
+27137013200,2,St. Louis County,0,198,1.3%,0.0%,No significant difference
+27137013300,2,St. Louis County,*1-4,155,1.3%,About 0.8%,No significant difference
+27137013400,2,St. Louis County,0,124,1.3%,0.0%,No significant difference
+27137013500,2,St. Louis County,0,55,1.3%,0.0%,No significant difference
+27137013600,2,St. Louis County,*1-4,59,1.3%,About 0.8%,No significant difference
+27137013800,2,St. Louis County,0,59,1.3%,0.0%,No significant difference
+27137013900,2,St. Louis County,*1-4,55,1.3%,About 0.8%,No significant difference
+27137014000,2,St. Louis County,0,89,1.3%,0.0%,No significant difference
+27137014100,2,St. Louis County,*1-4,43,1.3%,About 0.8%,No significant difference
+27137015100,2,St. Louis County,0,88,1.3%,0.0%,No significant difference
+27137015200,2,St. Louis County,0,129,1.3%,0.0%,No significant difference
+27137015300,2,St. Louis County,0,109,1.3%,0.0%,No significant difference
+27137015400,2,St. Louis County,*1-4,75,1.3%,About 0.8%,No significant difference
+27137015500,2,St. Louis County,0,69,1.3%,0.0%,No significant difference
+27137015600,3,St. Louis County,6,189,1.3%,3.2%,Significantly higher (1-2 times)
+27137015700,2,St. Louis County,*1-4,69,1.3%,About 0.8%,No significant difference
+27137015800,2,St. Louis County,*1-4,210,1.3%,About 0.8%,No significant difference
+27139080100,2,Scott County,0,178,0.2%,0.0%,No significant difference
+27139080201,2,Scott County,0,149,0.2%,0.0%,No significant difference
+27139080202,2,Scott County,*1-4,233,0.2%,About 0.8%,No significant difference
+27139080203,1,Scott County,0,606,0.2%,0.0%,Significantly lower (<0.7%)
+27139080204,2,Scott County,*1-4,209,0.2%,About 0.8%,No significant difference
+27139080205,1,Scott County,0,576,0.2%,0.0%,Significantly lower (<0.7%)
+27139080301,2,Scott County,*1-4,871,0.2%,About 0.8%,No significant difference
+27139080302,2,Scott County,*1-4,915,0.2%,About 0.8%,No significant difference
+27139080400,2,Scott County,*1-4,311,0.2%,About 0.8%,No significant difference
+27139080500,2,Scott County,0,91,0.2%,0.0%,No significant difference
+27139080600,2,Scott County,*1-4,246,0.2%,About 0.8%,No significant difference
+27139080700,2,Scott County,0,273,0.2%,0.0%,No significant difference
+27139080800,2,Scott County,7,507,0.2%,1.4%,No significant difference
+27139080903,2,Scott County,*1-4,327,0.2%,About 0.8%,No significant difference
+27139080904,2,Scott County,0,382,0.2%,0.0%,No significant difference
+27139080905,2,Scott County,0,290,0.2%,0.0%,No significant difference
+27139080906,2,Scott County,*1-4,246,0.2%,About 0.8%,No significant difference
+27139081000,2,Scott County,0,358,0.2%,0.0%,No significant difference
+27139081100,1,Scott County,0,575,0.2%,0.0%,Significantly lower (<0.7%)
+27139081200,2,Scott County,0,365,0.2%,0.0%,No significant difference
+27139081300,2,Scott County,*1-4,498,0.2%,About 0.8%,No significant difference
+27141030101,1,Sherburne County,0,630,0.1%,0.0%,Significantly lower (<0.7%)
+27141030102,2,Sherburne County,0,291,0.1%,0.0%,No significant difference
+27141030200,2,Sherburne County,0,402,0.1%,0.0%,No significant difference
+27141030300,2,Sherburne County,*1-4,256,0.1%,About 0.8%,No significant difference
+27141030402,2,Sherburne County,*1-4,668,0.1%,About 0.8%,No significant difference
+27141030403,2,Sherburne County,*1-4,596,0.1%,About 0.8%,No significant difference
+27141030404,2,Sherburne County,*1-4,648,0.1%,About 0.8%,No significant difference
+27141030502,1,Sherburne County,0,653,0.1%,0.0%,Significantly lower (<0.7%)
+27141030503,2,Sherburne County,0,338,0.1%,0.0%,No significant difference
+27141030504,2,Sherburne County,*1-4,202,0.1%,About 0.8%,No significant difference
+27141031500,1,Sherburne County,0,440,0.1%,0.0%,Significantly lower (<0.7%)
+27143170198,2,Sibley County,*1-4,149,1.9%,About 0.8%,No significant difference
+27143170200,2,Sibley County,*1-4,145,1.9%,About 0.8%,No significant difference
+27143170300,2,Sibley County,*1-4,130,1.9%,About 0.8%,No significant difference
+27143170400,3,Sibley County,*1-4,174,1.9%,> 0.8%,Significantly higher (1-2 times)
+27145000301,2,Stearns County,*1-4,272,0.3%,About 0.8%,No significant difference
+27145000302,2,Stearns County,*1-4,593,0.3%,About 0.8%,No significant difference
+27145000401,2,Stearns County,*1-4,849,0.3%,About 0.8%,No significant difference
+27145000402,2,Stearns County,0,287,0.3%,0.0%,No significant difference
+27145000500,1,Stearns County,0,844,0.3%,0.0%,Significantly lower (<0.7%)
+27145000601,2,Stearns County,*1-4,299,0.3%,About 0.8%,No significant difference
+27145000602,2,Stearns County,*1-4,209,0.3%,About 0.8%,No significant difference
+27145000701,2,Stearns County,0,191,0.3%,0.0%,No significant difference
+27145000801,2,Stearns County,*1-4,233,0.3%,About 0.8%,No significant difference
+27145000901,1,Stearns County,0,449,0.3%,0.0%,Significantly lower (<0.7%)
+27145001001,1,Stearns County,0,507,0.3%,0.0%,Significantly lower (<0.7%)
+27145010101,2,Stearns County,*1-4,556,0.3%,About 0.8%,No significant difference
+27145010102,2,Stearns County,*1-4,695,0.3%,About 0.8%,No significant difference
+27145010200,2,Stearns County,0,299,0.3%,0.0%,No significant difference
+27145010401,2,Stearns County,*1-4,206,0.3%,About 0.8%,No significant difference
+27145010402,2,Stearns County,*1-4,295,0.3%,About 0.8%,No significant difference
+27145010403,2,Stearns County,0,188,0.3%,0.0%,No significant difference
+27145010500,2,Stearns County,0,226,0.3%,0.0%,No significant difference
+27145010600,2,Stearns County,*1-4,260,0.3%,About 0.8%,No significant difference
+27145010900,2,Stearns County,*1-4,185,0.3%,About 0.8%,No significant difference
+27145011000,2,Stearns County,0,197,0.3%,0.0%,No significant difference
+27145011100,2,Stearns County,0,385,0.3%,0.0%,No significant difference
+27145011200,2,Stearns County,0,246,0.3%,0.0%,No significant difference
+27145011301,2,Stearns County,*1-4,489,0.3%,About 0.8%,No significant difference
+27145011302,2,Stearns County,0,382,0.3%,0.0%,No significant difference
+27145011304,2,Stearns County,0,219,0.3%,0.0%,No significant difference
+27145011400,2,Stearns County,0,352,0.3%,0.0%,No significant difference
+27145011500,2,Stearns County,6,407,0.3%,1.5%,No significant difference
+27145011600,2,Stearns County,0,25,0.3%,0.0%,No significant difference
+27147960100,2,Steele County,0,167,0.9%,0.0%,No significant difference
+27147960200,2,Steele County,*1-4,249,0.9%,About 0.8%,No significant difference
+27147960300,2,Steele County,*1-4,324,0.9%,About 0.8%,No significant difference
+27147960400,2,Steele County,*1-4,225,0.9%,About 0.8%,No significant difference
+27147960500,2,Steele County,*1-4,79,0.9%,About 0.8%,No significant difference
+27147960600,2,Steele County,*1-4,125,0.9%,About 0.8%,No significant difference
+27147960700,2,Steele County,*1-4,211,0.9%,About 0.8%,No significant difference
+27147960800,3,Steele County,*1-4,99,0.9%,> 0.8%,Significantly higher (1-2 times)
+27149480100,2,Stevens County,0,64,1.0%,0.0%,No significant difference
+27149480200,2,Stevens County,*1-4,89,1.0%,About 0.8%,No significant difference
+27149480300,2,Stevens County,0,114,1.0%,0.0%,No significant difference
+27151960100,2,Swift County,0,83,1.5%,0.0%,No significant difference
+27151960200,2,Swift County,*1-4,157,1.5%,About 0.8%,No significant difference
+27151960300,2,Swift County,0,75,1.5%,0.0%,No significant difference
+27151960400,3,Swift County,*1-4,49,1.5%,> 0.8%,Significantly higher (1-2 times)
+27153790100,2,Todd County,*1-4,181,0.6%,About 0.8%,No significant difference
+27153790200,2,Todd County,*1-4,118,0.6%,About 0.8%,No significant difference
+27153790300,2,Todd County,0,114,0.6%,0.0%,No significant difference
+27153790400,2,Todd County,*1-4,164,0.6%,About 0.8%,No significant difference
+27153790500,2,Todd County,*1-4,125,0.6%,About 0.8%,No significant difference
+27153790600,2,Todd County,*1-4,375,0.6%,About 0.8%,No significant difference
+27153790700,2,Todd County,0,165,0.6%,0.0%,No significant difference
+27153790800,2,Todd County,*1-4,69,0.6%,About 0.8%,No significant difference
+27155460100,4,Traverse County,6,92,4.5%,6.5%,Significantly higher (3+ times)
+27155460200,2,Traverse County,0,42,4.5%,0.0%,No significant difference
+27157490100,3,Wabasha County,*1-4,63,1.5%,> 0.8%,Significantly higher (1-2 times)
+27157490200,2,Wabasha County,0,63,1.5%,0.0%,No significant difference
+27157490300,2,Wabasha County,*1-4,96,1.5%,About 0.8%,No significant difference
+27157490400,2,Wabasha County,0,108,1.5%,0.0%,No significant difference
+27157490500,2,Wabasha County,*1-4,72,1.5%,About 0.8%,No significant difference
+27157490600,2,Wabasha County,*1-4,117,1.5%,About 0.8%,No significant difference
+27159480100,2,Wadena County,*1-4,149,0.4%,About 0.8%,No significant difference
+27159480200,2,Wadena County,0,253,0.4%,0.0%,No significant difference
+27159480300,2,Wadena County,0,307,0.4%,0.0%,No significant difference
+27161790100,2,Waseca County,0,86,0.6%,0.0%,No significant difference
+27161790200,2,Waseca County,*1-4,117,0.6%,About 0.8%,No significant difference
+27161790300,2,Waseca County,0,104,0.6%,0.0%,No significant difference
+27161790400,2,Waseca County,*1-4,276,0.6%,About 0.8%,No significant difference
+27161790500,2,Waseca County,0,169,0.6%,0.0%,No significant difference
+27163070103,2,Washington County,*1-4,288,0.3%,About 0.8%,No significant difference
+27163070104,2,Washington County,0,127,0.3%,0.0%,No significant difference
+27163070105,2,Washington County,0,147,0.3%,0.0%,No significant difference
+27163070106,2,Washington County,0,344,0.3%,0.0%,No significant difference
+27163070203,1,Washington County,0,439,0.3%,0.0%,Significantly lower (<0.7%)
+27163070204,2,Washington County,0,269,0.3%,0.0%,No significant difference
+27163070205,2,Washington County,0,101,0.3%,0.0%,No significant difference
+27163070206,2,Washington County,0,101,0.3%,0.0%,No significant difference
+27163070301,2,Washington County,0,65,0.3%,0.0%,No significant difference
+27163070303,2,Washington County,0,178,0.3%,0.0%,No significant difference
+27163070304,2,Washington County,*1-4,203,0.3%,About 0.8%,No significant difference
+27163070403,2,Washington County,*1-4,103,0.3%,About 0.8%,No significant difference
+27163070404,2,Washington County,0,165,0.3%,0.0%,No significant difference
+27163070405,2,Washington County,*1-4,183,0.3%,About 0.8%,No significant difference
+27163070406,2,Washington County,*1-4,334,0.3%,About 0.8%,No significant difference
+27163070501,2,Washington County,0,133,0.3%,0.0%,No significant difference
+27163070502,3,Washington County,*1-4,159,0.3%,> 0.8%,Significantly higher (1-2 times)
+27163070601,2,Washington County,0,255,0.3%,0.0%,No significant difference
+27163070602,3,Washington County,6,123,0.3%,4.9%,Significantly higher (1-2 times)
+27163070701,2,Washington County,0,168,0.3%,0.0%,No significant difference
+27163070703,2,Washington County,*1-4,135,0.3%,About 0.8%,No significant difference
+27163070704,2,Washington County,*1-4,109,0.3%,About 0.8%,No significant difference
+27163070906,2,Washington County,*1-4,277,0.3%,About 0.8%,No significant difference
+27163070907,2,Washington County,0,376,0.3%,0.0%,No significant difference
+27163070909,2,Washington County,*1-4,298,0.3%,About 0.8%,No significant difference
+27163070910,2,Washington County,*1-4,253,0.3%,About 0.8%,No significant difference
+27163070911,2,Washington County,*1-4,258,0.3%,About 0.8%,No significant difference
+27163070912,2,Washington County,0,151,0.3%,0.0%,No significant difference
+27163071001,2,Washington County,*1-4,308,0.3%,About 0.8%,No significant difference
+27163071003,2,Washington County,0,229,0.3%,0.0%,No significant difference
+27163071006,2,Washington County,0,255,0.3%,0.0%,No significant difference
+27163071010,2,Washington County,0,259,0.3%,0.0%,No significant difference
+27163071011,2,Washington County,0,162,0.3%,0.0%,No significant difference
+27163071012,2,Washington County,0,269,0.3%,0.0%,No significant difference
+27163071013,2,Washington County,*1-4,261,0.3%,About 0.8%,No significant difference
+27163071014,2,Washington County,0,197,0.3%,0.0%,No significant difference
+27163071015,2,Washington County,0,290,0.3%,0.0%,No significant difference
+27163071016,2,Washington County,0,112,0.3%,0.0%,No significant difference
+27163071017,2,Washington County,*1-4,388,0.3%,About 0.8%,No significant difference
+27163071018,2,Washington County,*1-4,879,0.3%,About 0.8%,No significant difference
+27163071101,2,Washington County,0,124,0.3%,0.0%,No significant difference
+27163071102,2,Washington County,0,172,0.3%,0.0%,No significant difference
+27163071206,1,Washington County,0,585,0.3%,0.0%,Significantly lower (<0.7%)
+27163071207,1,Washington County,0,518,0.3%,0.0%,Significantly lower (<0.7%)
+27163071208,2,Washington County,*1-4,354,0.3%,About 0.8%,No significant difference
+27163071209,2,Washington County,*1-4,392,0.3%,About 0.8%,No significant difference
+27163071300,2,Washington County,0,395,0.3%,0.0%,No significant difference
+27163071400,2,Washington County,*1-4,502,0.3%,About 0.8%,No significant difference
+27165950100,2,Watonwan County,*1-4,176,2.9%,About 0.8%,No significant difference
+27165950200,3,Watonwan County,12,343,2.9%,3.5%,Significantly higher (1-2 times)
+27165950300,3,Watonwan County,*1-4,139,2.9%,> 0.8%,Significantly higher (1-2 times)
+27167950100,2,Wilkin County,*1-4,143,1.3%,About 0.8%,No significant difference
+27167950200,2,Wilkin County,*1-4,140,1.3%,About 0.8%,No significant difference
+27169670100,2,Winona County,*1-4,248,2.4%,About 0.8%,No significant difference
+27169670200,2,Winona County,*1-4,128,2.4%,About 0.8%,No significant difference
+27169670300,3,Winona County,7,239,2.4%,2.9%,Significantly higher (1-2 times)
+27169670400,3,Winona County,5,104,2.4%,4.8%,Significantly higher (1-2 times)
+27169670500,2,Winona County,0,39,2.4%,0.0%,No significant difference
+27169670600,3,Winona County,*1-4,77,2.4%,> 0.8%,Significantly higher (1-2 times)
+27169670700,2,Winona County,0,86,2.4%,0.0%,No significant difference
+27169670800,2,Winona County,*1-4,186,2.4%,About 0.8%,No significant difference
+27169670900,2,Winona County,*1-4,129,2.4%,About 0.8%,No significant difference
+27169671000,2,Winona County,*1-4,121,2.4%,About 0.8%,No significant difference
+27171100100,1,Wright County,0,852,0.1%,0.0%,Significantly lower (<0.7%)
+27171100202,2,Wright County,0,68,0.1%,0.0%,No significant difference
+27171100203,2,Wright County,0,263,0.1%,0.0%,No significant difference
+27171100204,2,Wright County,*1-4,654,0.1%,About 0.8%,No significant difference
+27171100300,2,Wright County,0,330,0.1%,0.0%,No significant difference
+27171100400,2,Wright County,0,256,0.1%,0.0%,No significant difference
+27171100500,2,Wright County,0,210,0.1%,0.0%,No significant difference
+27171100701,2,Wright County,*1-4,311,0.1%,About 0.8%,No significant difference
+27171100702,2,Wright County,*1-4,425,0.1%,About 0.8%,No significant difference
+27171100703,2,Wright County,0,383,0.1%,0.0%,No significant difference
+27171100801,2,Wright County,*1-4,645,0.1%,About 0.8%,No significant difference
+27171100802,2,Wright County,*1-4,560,0.1%,About 0.8%,No significant difference
+27171100900,2,Wright County,0,358,0.1%,0.0%,No significant difference
+27171101000,2,Wright County,0,261,0.1%,0.0%,No significant difference
+27171101100,1,Wright County,0,479,0.1%,0.0%,Significantly lower (<0.7%)
+27171101200,2,Wright County,0,138,0.1%,0.0%,No significant difference
+27171101300,2,Wright County,0,270,0.1%,0.0%,No significant difference
+27173970100,2,Yellow Medicine County,*1-4,128,1.4%,About 0.8%,No significant difference
+27173970200,2,Yellow Medicine County,*1-4,116,1.4%,About 0.8%,No significant difference
+27173970300,2,Yellow Medicine County,*1-4,100,1.4%,About 0.8%,No significant difference
+27173970400,2,Yellow Medicine County,0,56,1.4%,0.0%,No significant difference
