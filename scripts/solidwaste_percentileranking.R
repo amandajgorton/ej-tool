@@ -111,8 +111,9 @@ sw_finalpoints <- sw %>%
 
 # Calculate percentiles
 
-sw_ranked <- sw_finalpoints %>%
-  mutate(percentile_rank = percent_rank(sw_points)*100)
+test <- sw_finalpoints %>%
+  mutate(percentile_rank = percent_rank(sw_points)*100) %>%
+  mutate(across('percentile_rank', round, 2))
 
 ### Export data
 
