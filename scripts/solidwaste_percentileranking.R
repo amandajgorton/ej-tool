@@ -91,3 +91,34 @@ enf <- enf %>%
   rename(enf_points = sw_enforcement_action_points, geoid = census_tract) %>%
   mutate_at('geoid', as.numeric) %>%
   select("geoid", "enf_points")
+
+
+### Calculate percentiles
+
+# 1. Merge across data types and summarize total points per tract 
+# 2. Calculate percentile ranking
+
+# Add all the dataframes to a list
+sw_list <- list(compost, enf, gas, insp, land, leachate, msw, tire, transfer, wte)
+
+# Merge by geoid
+sw <- sw_list %>%
+  reduce(full_join, by = 'geoid')
+
+# Sum points across columns
+sw_finalpoints <- sw %>%
+  mutate(sw_points = rowSums(across(c(compost_points, enf_points, gascapture_points, insp_points, landdisposal_points, msw_points, tire_points, transfer_points, wte_points)), na.rm=TRUE))
+
+# Calculate percentiles
+
+sw_ranked <- sw_finalpoints %>%
+  mutate(percentile_rank = percent_rank(sw_points)*100)
+
+### Export data
+
+# Ranked percentiles for each indicator, with one row per tract
+write.csv(sw_ranked, "solid_waste_percentiles.csv")
+
+
+
+
