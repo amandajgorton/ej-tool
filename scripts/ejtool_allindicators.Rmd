@@ -9,6 +9,18 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 ```
 
+## Load packages
+
+```{r load packages}
+library(readxl)
+library(tidyr)
+library(janitor)
+library(dplyr)
+library(tidyverse)
+library(sf)
+```
+
+
 # Combining ranked indicators 
 
 Goal: Combine all the ranked indicators into a single file to be used in ArcGIS for creating the EJ tool
@@ -102,11 +114,37 @@ indicators <- list(cleanup, groundwater, hw, impaired, sw)
 all <- indicators %>%
   reduce(full_join, by = 'geoid')
 
+indicators$geoid <- as.character(indicators$geoid)
+
 ```
 
 Export for now
 ```{r}
+
+all <- all %>%
+  replace(is.na(.),0)
+
 write.csv(all, "allindicators_percentiles.csv")
+
+```
+
+## Join to census tracts
+
+Import census tracts
+```{r}
+census <- st_read('X:/Agency_Files/Data_Services/DAU/Analyses/EJ/Census tracts/cb_2020_27_tract_500k.shp')
+
+census <- census %>%
+  clean_names() %>%
+  select(geoid, geometry)
+
+allindicators_census <- merge(census, all, by = 'geoid')
+
+```
+
+Export for ArcGIS
+```{r}
+st_write(allindicators_census, "allindicators_with_tracts.shp", driver = "ESRI Shapefile")
 
 ```
 
@@ -126,6 +164,7 @@ library(tidyr)
 library(janitor)
 library(dplyr)
 library(tidyverse)
+library(sf)
 ```
 
 ## Import data
