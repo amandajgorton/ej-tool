@@ -36,7 +36,7 @@ Where possible, I have indicated the source of each indicator. Please refer to t
 
 ```
 
-# Data clean-up and manipulation
+# Data clean-up and manipulation: calculatuing percentiles for each indicator
 
 ## CDC PLACES
 
