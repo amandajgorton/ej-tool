@@ -9,6 +9,108 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 ```
 
+# Combining ranked indicators 
+
+Goal: Combine all the ranked indicators into a single file to be used in ArcGIS for creating the EJ tool
+
+**What do I need to do to accomplish this?**
+1) Import all the ranked data (i.e. percentiles that were already ranked)
+2) Use janitor for consistency in case and names
+3) Drop unnecessary columns, and rename points and score columns so that they are associated with the indicator type
+4) Make sure percentile is a percent (i.e out of 100) rather than a proportion; drop to 2 deimcals
+5) Merge based on GEOID
+6) Convert to a .shp file for ArcGIS
+
+## Import ranked percentile data and cleanup
+
+```{r}
+# Make sure pointing to the 'output' directory - will probably have to move this to the XDrive at some point
+# H:\R\ej-tool\output
+
+cleanup <- read.csv('H:/R/ej-tool/output/cleanup_sites_percentiles.csv') #Why does this work!? GAH!
+sw <- read.csv('H:/R/ej-tool/output/solid_waste_percentiles.csv')
+groundwater <- read.csv('H:/R/ej-tool/output/groundwater_threats_percentiles.csv')
+hw <- read.csv('H:/R/ej-tool/output/hazardouswaste_percentiles.csv')
+impaired <- read.csv('H:/R/ej-tool/output/impairedwaters_percentiles.csv')
+
+```
+
+Let's take a look to see what are all our column names and styles. This will tell me which ones I need to keep/drop or change names  
+Also check which percentiles need to be multiplied by 100
+```{r, eval = FALSE}
+
+names(cleanup) # Keep geoid, cleanup_points, and percentile_rank. Add cleanup to percentile name
+names(sw) # Add 'sw' in front of percentile_rank. Keep geoid, sw_points, and percentile_rank. 
+names(groundwater) # Rename groundwater_score to groundwater_points. Keep geoid and percentile_rank. Add groundwater to percentile name
+names(hw) # Use janitor to change to lower case. Keep hw_points and percentile_rank. Add hw to percentile rank name
+names(impaired) # Keep geoid, impaired_score, percentile_rank. Add impaired to percentile_rank name and change score to points
+
+head(cleanup) # x100
+head(sw) #all good
+head(groundwater) # x100
+head(hw) #all good
+head(impaired) #all good
+```
+
+Drop and rename columns as necessary
+```{r dropping and renaming columns}
+
+# Cleanup sites
+cleanup <- cleanup %>%
+  mutate(percentile_rank = percentile_rank*100) %>%
+  rename(cleanup_percentile = percentile_rank) %>%
+  mutate(across(c(cleanup_percentile), round, 2)) %>%
+  select("geoid", "cleanup_points", "cleanup_percentile")
+
+# Solid waste
+sw <- sw %>%
+  rename(sw_percentile = percentile_rank) %>%
+  mutate(across(c(sw_percentile), round, 2)) %>%
+  select("geoid", "sw_points", "sw_percentile")
+
+# Groundwater
+groundwater <- groundwater %>%
+  mutate(percentile_rank = percentile_rank*100) %>%
+  rename(groundwater_percentile = percentile_rank, groundwater_points = groundwater_score) %>%
+  mutate(across(c(groundwater_percentile), round, 2)) %>%
+  select("geoid", "groundwater_points", "groundwater_percentile")
+
+# Hazardous waste
+hw <- hw %>%
+  clean_names() %>%
+  rename(hw_percentile = percentile_rank) %>%
+  mutate(across(c(hw_percentile), round, 2)) %>%
+  select("geoid", "hw_points", "hw_percentile")
+
+# Impaired waters
+impaired <- impaired %>%
+  rename(impaired_percentile = percentile_rank, impaired_points = impairment_score) %>%
+  mutate(across(c(impaired_percentile), round, 2)) %>%
+  select("geoid", "impaired_points", "impaired_percentile")
+
+
+
+```
+
+Merge the indicators based on geoid
+```{r merge on geoid}
+
+# Add all the dataframes to a list
+indicators <- list(cleanup, groundwater, hw, impaired, sw)
+
+# Merge by geoid
+all <- indicators %>%
+  reduce(full_join, by = 'geoid')
+
+```
+
+Export for now
+```{r}
+write.csv(all, "allindicators_percentiles.csv")
+
+```
+
+
 # Overview of data indicators + initial set up 
 
 This script will contain the cleaning and percentile ranking for all of the data indicators used in the EJ tool.  
