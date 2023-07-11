@@ -1,0 +1,208 @@
+---
+title: 'EJ tool: Solid waste data'
+author: "Amanda Gorton, MPCA"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+## Set-up and overview
+
+### Data description
+
+**Combine the following data into a single table**
+- compost - omit for now until Quinn fixes these data
+- gas capture
+- landfill
+- leachate
+- tires
+- transfer areas
+- waste to energy
+
+**Fields in common**
+- AI name
+- AI ID
+- permit number
+- latitude
+- longitude
+- waste type
+- waste amount
+- waste units
+
+## Load packages and import data 
+```{r import packages}
+library(tidyr)
+library(janitor)
+library(dplyr)
+library(tidyverse)
+library(readxl)
+```
+
+```{r import data}
+compost <- read_excel("X:\\Agency_Files\\Data_Services\\DAU\\Analyses\\EJ\\EJ Score - Metrics for Scoring\\EJ Prioritization Tool Version 1\\Data Files - Organized\\Solid waste\\Solid Waste Compost Facilities with Coordinates and Points.xlsx", sheet = "CompostSitesPointsCoordinates")
+
+gas <- read_excel("X:\\Agency_Files\\Data_Services\\DAU\\Analyses\\EJ\\EJ Score - Metrics for Scoring\\EJ Prioritization Tool Version 1\\Data Files - Organized\\Solid waste\\Solid Waste Gas Capture Facilities.xlsx", sheet = "Gas Capture Coordinates Points")
+
+landfill <- read_excel("X:\\Agency_Files\\Data_Services\\DAU\\Analyses\\EJ\\EJ Score - Metrics for Scoring\\EJ Prioritization Tool Version 1\\Data Files - Organized\\Solid waste\\Solid Waste Landfill or Construction, Demolition and Inert Debris Waste Disposal Sites.xlsx", sheet = "Percentile Ranking Histogram")
+
+leachate <- read_excel("X:\\Agency_Files\\Data_Services\\DAU\\Analyses\\EJ\\EJ Score - Metrics for Scoring\\EJ Prioritization Tool Version 1\\Data Files - Organized\\Solid waste\\Solid Waste Leachate Facilities.xlsx", sheet = "Leachate Coordinates Points")
+
+tires <- read_excel("X:\\Agency_Files\\Data_Services\\DAU\\Analyses\\EJ\\EJ Score - Metrics for Scoring\\EJ Prioritization Tool Version 1\\Data Files - Organized\\Solid waste\\Solid Waste Tire Waste Facilities.xlsx", sheet = "Tire Waste with Converted Units")
+
+transfer <- read_excel("X:\\Agency_Files\\Data_Services\\DAU\\Analyses\\EJ\\EJ Score - Metrics for Scoring\\EJ Prioritization Tool Version 1\\Data Files - Organized\\Solid waste\\Solid Waste Transfer Area Facilities.xlsx", sheet = "Full Data with Converted Units")
+
+wte <- read_excel("X:\\Agency_Files\\Data_Services\\DAU\\Analyses\\EJ\\EJ Score - Metrics for Scoring\\EJ Prioritization Tool Version 1\\Data Files - Organized\\Solid waste\\Solid Waste Waste-to-Energy Facilities.xlsx", sheet = "WTE Facilities 2021")
+
+```
+
+## Clean-up and formating datasets
+
+**What needs to be done to each dataframe?**
+
+1. Clean up column names to remove spaces, upper case
+2. Rename columns names to common names across datasets
+3. Make new column with waste type
+4. Drop extraneous columns
+
+### Compost
+
+**Keep**: Latitude (rename), Longitude (rename), Annual capacity (rename), Master ai name (rename), Permit number, Units (rename), Master ai id (rename)
+**Add**: waste_type = compost
+
+```{r compost}
+
+compost <- compost %>%
+  clean_names %>%
+  rename(permit_number = permit, waste_amount = annual_capacity, ai_name = master_ai_name, latitude = latitude_solid_waste_permit_si_avg, longitude = longitude_solid_waste_permit_si_avg, units = units_desc, ai_id = master_ai_id) %>%
+  mutate(waste_type = 'compost') %>%
+  mutate_at(c('latitude', 'longitude', 'ai_id'), as.numeric) %>%
+  select("latitude", "longitude", 'permit_number', 'ai_name', 'ai_id', 'units', 'waste_amount', 'waste_type')
+
+
+```
+
+
+### Gas capture
+
+**Keep**: Latitude, Longitude, Units, Total Gas Collected (rename), Permit Number (rename)
+**Add**: waste_type = gas capture
+
+```{r gas capture}
+
+gas <- gas %>%
+  clean_names %>%
+  rename(permit_number = permit_number_gas_capture_for_tableau, waste_amount = total_gas_collected_cubic_meters) %>%
+  mutate(waste_type = 'gas capture') %>%
+  mutate_at(c('latitude', 'longitude'), as.numeric) %>%
+  select("latitude", "longitude", "units", 'permit_number', 'waste_amount', 'waste_type')
+
+```
+
+### Landfill
+
+**Keep**: Latitude, Longitude, Permit number, Facility (rename), Overall annual cubic yards of waste (rename)
+**Add**: waste_type = landfill
+
+```{r landfill}
+
+landfill<- landfill %>%
+  clean_names %>%
+  rename(ai_name = facility, waste_amount = overall_annual_cubic_yards_of_waste) %>%
+  mutate(waste_type = 'landfill or construction, demo and inert', units = 'cubic yards') %>%
+  mutate_at(c('latitude', 'longitude'), as.numeric) %>%
+  select('ai_name', "latitude", "longitude", 'waste_amount', 'waste_type', 'permit_number', 'units')
+
+```
+
+
+
+### Leachate
+
+**Keep**: Latitude, Longitude, Units, Master AI ID (rename), Total Annual Leachate (rename)
+**Add**: waste_type = leachate
+
+```{r}
+leachate <- leachate %>%
+  clean_names %>%
+  rename(ai_id = master_ai_id, waste_amount = total_annual_leachate, ) %>%
+  mutate(waste_type = 'leachate') %>%
+  mutate_at(c('latitude', 'longitude', 'ai_id', 'waste_amount'), as.numeric) %>%
+  select('ai_id', "latitude", "longitude", "units", 'waste_amount', 'waste_type')
+
+
+```
+
+### Tires
+
+**Keep**: Final Tons (rename), Permit Number, Master AI ID (rename), Facility Name, Waste action description (rename), Units
+**Add**: waste_type = tires
+
+```{r tires}
+tires <- tires %>%
+  clean_names %>%
+  rename(ai_id = master_ai_id, ai_name = facility_name, waste_amount = final_tons, waste_action = waste_action_description) %>%
+  mutate(waste_type = 'tires') %>%
+  mutate_at('ai_id', as.numeric) %>%
+  select('ai_id', 'units', 'waste_amount', 'waste_type', 'permit_number', 'ai_name', 'units')
+
+```
+
+### Transfer areas
+
+**Keep**: Amount tons final (rename), Permit number, Master AI ID (rename), Facility name, Waste action description (rename), Units
+**Add**: waste_type = transfer areas
+
+```{r transfer areas}
+
+transfer <- transfer %>%
+  clean_names %>%
+  rename(ai_id = master_ai_id, waste_amount = amount_tons_final, waste_action = waste_action_description, ai_name = facility_name) %>%
+  mutate(waste_type = 'transfer areas') %>%
+  mutate_at('ai_id', as.numeric) %>%
+  select('ai_id', 'units', 'waste_amount', 'waste_type', 'permit_number', 'ai_name')
+
+
+```
+
+### Waste to energy 
+
+**Keep**: Amount (rename), Units, Permit number, Master AI ID (rename), Facility name, Waste action description (rename)
+**Add**: waste_type = waste to energy
+
+```{r waste to energy}
+wte <- wte %>%
+  clean_names %>%
+  rename(ai_id = master_ai_id, waste_amount = amount, waste_action = waste_action_description, ai_name = facility_name) %>%
+  mutate(waste_type = 'waste to energy') %>%
+  mutate_at('ai_id', as.numeric) %>%
+  select('ai_id', 'units', 'waste_amount', 'waste_type', 'permit_number', 'ai_name')
+
+```
+
+## Merging datasets together
+
+Next, I want to combine compost, gas capture, landfill, leachate, tires, transfers areas and waste to energy into a single dataframe  
+
+Need to replace NAs with blanks, but not sure how to get it to work right now
+
+```{r bind rows}
+# Combine them together
+smooshy <- bind_rows(compost, gas, landfill, leachate, tires, transfer, wte)
+
+# This doesn't quite work
+test <- replace(smooshy, is.na(smooshy), "")
+
+```
+
+## Export data
+
+Combined SW dataset
+```{r export sw data}
+
+write.csv(smooshy, "solidwaste_combined.csv")
+
+```
+
